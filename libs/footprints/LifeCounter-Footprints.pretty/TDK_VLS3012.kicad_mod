@@ -1,0 +1,151 @@
+(footprint "TDK_VLS3012"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VLS3012")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -1.383 -2.366 0)
+		(layer "F.SilkS")
+		(uuid "a8577fba-9576-4bc5-8a5b-92ed950b3a54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VLS3012"
+		(at -1.383 -2.366 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c5df39f-2c1f-4dda-8fb4-24e49aab6ed1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7628ef4b-72e9-4743-9319-d87cb29b590d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3656c366-f551-4a9d-b66f-deeacdd467d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.25 -1.5)
+		(end 0.25 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cfa40d8-4fd3-4f35-bd28-6eac8166f0a4")
+	)
+	(fp_line
+		(start -0.25 1.5)
+		(end 0.25 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ed46a07-b65f-4ab7-9244-030014697fe8")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afad1fdd-2685-4c4d-a3fd-7b46676a3ae2")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74757319-ea73-4b6d-9470-b023ba86911d")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee921fed-25d2-4ff0-8853-c25698501c82")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd8c6df7-5fe0-439f-953e-1611cca35f82")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.383 -2.366 0)
+		(layer "F.Fab")
+		(uuid "876a6539-d0af-41b5-87bb-82f5ca11396a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9daafd19-6b73-453d-9f0d-abcc8a37a245")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd75d258-e17f-4bfd-af55-89957e2c14e7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models/TDK_VLS3012CX-100M-1.stp"
+		(offset
+			(xyz 0 0 0.009999999626)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

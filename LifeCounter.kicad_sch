@@ -5,7 +5,7 @@
 	(uuid "4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad")
 	(paper "A4")
 	(lib_symbols
-		(symbol "LifeCounter-Symbols:54132-4562"
+		(symbol "LifeCounter-Symbols:54104-4531"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "54132-4562"
+			(property "Value" "54104-4531"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LifeCounter-Footprints:Molex_54132-4562"
+			(property "Footprint" "LifeCounter-Footprints:Molex_54104-4531"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/541324562_sd.pdf"
+			(property "Datasheet" ""
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOLEX - 54132-4562 - CONNECTOR, FPC, RECEPTACLE, 45 POSITION, 1ROW"
+			(property "Description" "FFC & FPC Connectors 0.5 FPC ZIF SMT R/AU prCont45CktEmbsTpPkg"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-54132-4562"
+			(property "Mouser Part Number" "538-54104-4531"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54132-4562?qs=OdNwOVlk5%2FiIVqgFYVv71Q%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54104-4531?qs=sMDukONGwJXyyUSAdQyS2w%3D%3D"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -96,7 +96,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "54132-4562"
+			(property "Manufacturer_Part_Number" "54104-4531"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -106,7 +106,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "54132-4562_1_1"
+			(symbol "54104-4531_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -114.3)
@@ -2425,261 +2425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:54132-4562")
-		(at 127 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "274eb3df-3a5e-4d4c-b4cd-87e7607de99e")
-		(property "Reference" "J1"
-			(at 139.7 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54132-4562"
-			(at 139.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LifeCounter-Footprints:Molex_54132-4562"
-			(at 148.59 131.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/541324562_sd.pdf"
-			(at 148.59 231.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOLEX - 54132-4562 - CONNECTOR, FPC, RECEPTACLE, 45 POSITION, 1ROW"
-			(at 127 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2"
-			(at 148.59 431.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-54132-4562"
-			(at 148.59 531.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54132-4562?qs=OdNwOVlk5%2FiIVqgFYVv71Q%3D%3D"
-			(at 148.59 631.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 148.59 731.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "54132-4562"
-			(at 148.59 831.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "cc952b92-77ef-4ad9-83b7-2638f93da1f4")
-		)
-		(pin "8"
-			(uuid "a48dc70e-d5c7-4a7d-a9f8-309c8f4fdf9b")
-		)
-		(pin "16"
-			(uuid "8883f467-1019-42f4-b3d0-2c8ecd17d8de")
-		)
-		(pin "14"
-			(uuid "21806c97-6091-43f6-a890-8963b1b6b8e0")
-		)
-		(pin "21"
-			(uuid "48e603bc-384f-4fbf-9b84-01258ca05cdf")
-		)
-		(pin "23"
-			(uuid "b9290ded-1799-4383-8494-95be263e9793")
-		)
-		(pin "15"
-			(uuid "5279ca73-322c-4087-aa54-5c97c8ef0675")
-		)
-		(pin "22"
-			(uuid "e145d97a-3a5c-4fd8-864a-9bdbc38ccd45")
-		)
-		(pin "2"
-			(uuid "69d1ace0-9073-434d-9bc4-f3653c305f9f")
-		)
-		(pin "1"
-			(uuid "4de9abfd-6fe9-411a-9cd4-76f556029cfa")
-		)
-		(pin "7"
-			(uuid "5f5bb592-0fdb-465d-9af3-e7c9069d6b2e")
-		)
-		(pin "20"
-			(uuid "8b43b301-9e88-446b-b595-63f913b9e60e")
-		)
-		(pin "3"
-			(uuid "893ef3d7-ff2b-430d-ba31-d55568feebfa")
-		)
-		(pin "17"
-			(uuid "dcf8485f-c4e9-4b5d-baae-b43a7962b324")
-		)
-		(pin "13"
-			(uuid "15cb3fbd-b64b-4931-a071-944309dac405")
-		)
-		(pin "4"
-			(uuid "513fe5fd-0fc7-46d6-8510-9e40ece8c614")
-		)
-		(pin "6"
-			(uuid "67656275-3318-4bcb-8792-e4dfdb117975")
-		)
-		(pin "40"
-			(uuid "ba95c197-db51-4e5e-a34e-225eacd4fd1b")
-		)
-		(pin "43"
-			(uuid "17f6c908-96f6-4615-9e35-a07ced24d310")
-		)
-		(pin "11"
-			(uuid "0d617303-0f54-4d1b-a7c6-37c7811ba27d")
-		)
-		(pin "37"
-			(uuid "038f4eef-844a-485f-b9dc-1b87e19d3c1b")
-		)
-		(pin "38"
-			(uuid "054e49e1-e2a9-411d-8b41-a1930db150a2")
-		)
-		(pin "19"
-			(uuid "f06a57f1-d58c-4e34-8752-548a8c77d13f")
-		)
-		(pin "30"
-			(uuid "c0e9743f-078d-4a49-8133-2a9b48e468e1")
-		)
-		(pin "34"
-			(uuid "44b62420-8724-4277-b5c7-7144cfd2ccb6")
-		)
-		(pin "29"
-			(uuid "a1e6e844-40c2-4842-b952-146f185678c5")
-		)
-		(pin "9"
-			(uuid "4f2ceb55-7dd9-47b4-b63e-fa4d61027539")
-		)
-		(pin "31"
-			(uuid "021984a0-0d74-4356-a3a3-ce52a03beb48")
-		)
-		(pin "12"
-			(uuid "98bd4e1e-f55c-451f-b4b9-a3cbd495162c")
-		)
-		(pin "45"
-			(uuid "497d0971-5c5d-471b-ae31-fce63a5c7d08")
-		)
-		(pin "44"
-			(uuid "7c98cd2c-da78-48ff-8513-dc96ea322571")
-		)
-		(pin "5"
-			(uuid "d5454e03-7bd7-4a26-a26e-b81b04f0e193")
-		)
-		(pin "MP2"
-			(uuid "9adc454d-50ae-4961-bdbb-ec8f26fcf5ac")
-		)
-		(pin "26"
-			(uuid "02140367-3669-41d2-9fa1-6d24367abea8")
-		)
-		(pin "42"
-			(uuid "d83d5918-2df7-493e-8b9f-cfbc5112184e")
-		)
-		(pin "36"
-			(uuid "0a66b1c7-bd53-4961-8b47-7ea278c18811")
-		)
-		(pin "24"
-			(uuid "ebc1c96f-f679-4964-bacb-68e6bbca6145")
-		)
-		(pin "25"
-			(uuid "2ead442d-ec50-401a-a32a-5bbde49509bc")
-		)
-		(pin "41"
-			(uuid "2a077c57-af88-4f46-9b98-afb1a7a04475")
-		)
-		(pin "28"
-			(uuid "bb7158b1-e080-4a62-994e-c61c29eff142")
-		)
-		(pin "39"
-			(uuid "d8304967-9586-4e4d-b65f-72947eea1821")
-		)
-		(pin "27"
-			(uuid "1719aa9b-f728-49a5-8854-39a50c10f30f")
-		)
-		(pin "32"
-			(uuid "7a94a459-d4e7-43f3-beef-378186450553")
-		)
-		(pin "33"
-			(uuid "f962f92c-3acc-4636-a99c-eed7462595b0")
-		)
-		(pin "MP1"
-			(uuid "30faac5f-d946-438b-8cd9-a8726f61f212")
-		)
-		(pin "35"
-			(uuid "5cc4039f-e3a1-459f-b95e-9dd52477d0ad")
-		)
-		(pin "10"
-			(uuid "a5cbbc87-5cd3-4065-8908-6a6f5d3f2de2")
-		)
-		(instances
-			(project ""
-				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
 		(at 181.61 82.55 0)
 		(unit 1)
@@ -3682,6 +3427,261 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:54104-4531")
+		(at 128.27 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce834519-02d9-4080-8867-8050de6349c4")
+		(property "Reference" "J1"
+			(at 140.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54104-4531"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Molex_54104-4531"
+			(at 149.86 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "FFC & FPC Connectors 0.5 FPC ZIF SMT R/AU prCont45CktEmbsTpPkg"
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2"
+			(at 149.86 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-54104-4531"
+			(at 149.86 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54104-4531?qs=sMDukONGwJXyyUSAdQyS2w%3D%3D"
+			(at 149.86 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 149.86 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "54104-4531"
+			(at 149.86 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "39"
+			(uuid "792d12cc-5e7a-4c31-b657-19a15c12a5a4")
+		)
+		(pin "19"
+			(uuid "8ad8c391-0684-4db0-bdfe-b012601280c4")
+		)
+		(pin "40"
+			(uuid "e2ead2de-55e7-4085-9061-4d23ca09689f")
+		)
+		(pin "31"
+			(uuid "04f21636-eabc-4e85-81f6-51be01492264")
+		)
+		(pin "23"
+			(uuid "677b8212-ed62-4a6e-90bf-4252b55ccfc3")
+		)
+		(pin "29"
+			(uuid "34f36ae7-c21e-4adf-a337-572eba3c1fcb")
+		)
+		(pin "8"
+			(uuid "d4647ae7-ab47-499a-845b-a4f37dd34133")
+		)
+		(pin "11"
+			(uuid "1ebc5e89-335a-4985-9d1e-e12a5fddfa9f")
+		)
+		(pin "5"
+			(uuid "738fa609-07b0-4e3c-bf27-77eae5a9c7e9")
+		)
+		(pin "4"
+			(uuid "b4afcbda-83b1-4159-8178-e337833dc66d")
+		)
+		(pin "3"
+			(uuid "56c4c93e-0189-41fb-95fe-44e614df7307")
+		)
+		(pin "2"
+			(uuid "a1bc20fd-473f-49a6-96a5-82e78dbc5c78")
+		)
+		(pin "1"
+			(uuid "f66d80d2-acb3-4281-91ac-3171390e23fa")
+		)
+		(pin "MP2"
+			(uuid "6d664cd1-7793-471f-be46-bcecda5368bb")
+		)
+		(pin "MP1"
+			(uuid "4a55b112-47f7-49fb-8418-7b538e1fe6b5")
+		)
+		(pin "20"
+			(uuid "7869a8ee-c99e-4631-a521-573d4a2f8e45")
+		)
+		(pin "41"
+			(uuid "01a0d0ae-c811-454d-89b9-4b6e7b37bf9d")
+		)
+		(pin "33"
+			(uuid "23c468f8-8d70-492b-8bbd-54ec0d312160")
+		)
+		(pin "16"
+			(uuid "e238ac0b-4212-4dd1-818c-d5d224bb69d2")
+		)
+		(pin "43"
+			(uuid "2a2b1e82-52cd-49cc-ae85-8b97d8aa2e5b")
+		)
+		(pin "32"
+			(uuid "29289225-03d8-456d-b786-197fda99c93e")
+		)
+		(pin "18"
+			(uuid "49988450-d797-4063-a954-6bebdc5a6f33")
+		)
+		(pin "28"
+			(uuid "3ef0698b-14b8-422f-8d92-315839f4aa05")
+		)
+		(pin "45"
+			(uuid "242c3586-edcb-448f-8fd8-3b8c7e4bbc6c")
+		)
+		(pin "44"
+			(uuid "8a8ca6e9-71a9-4bd8-ba02-61667f533d2a")
+		)
+		(pin "25"
+			(uuid "a27ab899-a97c-4560-9f2e-0d484b38f871")
+		)
+		(pin "37"
+			(uuid "c9110027-2ca7-4206-96a4-a71ade06082c")
+		)
+		(pin "38"
+			(uuid "f75ed77d-553e-41c0-9fd9-31d05b695c1b")
+		)
+		(pin "9"
+			(uuid "7dcf643b-9980-4404-9bd0-a1771c27e5f7")
+		)
+		(pin "13"
+			(uuid "280efb28-aaad-4703-9b43-617e13a6783a")
+		)
+		(pin "21"
+			(uuid "e8b197a2-9c54-4781-8335-c680694330b2")
+		)
+		(pin "34"
+			(uuid "6ce9c52b-bf3e-48b0-a809-85ec80bc7bd4")
+		)
+		(pin "36"
+			(uuid "dde0ec56-bda3-4c11-907d-15521eb95c37")
+		)
+		(pin "14"
+			(uuid "581d4237-a8a5-4907-9cfe-b15bd898893f")
+		)
+		(pin "17"
+			(uuid "ab1375e2-9240-4c7a-a630-84908829a45f")
+		)
+		(pin "42"
+			(uuid "f09c9c87-16dc-4c90-8d57-7e5a32804541")
+		)
+		(pin "26"
+			(uuid "bc94a8d3-8ec5-4fc3-8c37-4ced026d48de")
+		)
+		(pin "7"
+			(uuid "7175a3a1-b824-4221-a06c-e6176e476d69")
+		)
+		(pin "35"
+			(uuid "7857f6c8-5d41-450f-a2bc-0507422b8545")
+		)
+		(pin "22"
+			(uuid "4018be2c-da98-4a87-81be-9fa428e90dfc")
+		)
+		(pin "15"
+			(uuid "d7ad4605-2e53-4621-aa85-69d2d6a3814d")
+		)
+		(pin "10"
+			(uuid "0cb10917-5f55-4115-8981-b5ccf49c1ffb")
+		)
+		(pin "6"
+			(uuid "a261ae00-ff58-4fa5-8a82-750f0b3e57f2")
+		)
+		(pin "12"
+			(uuid "d10e6247-57c2-4ace-8182-461ae8e98527")
+		)
+		(pin "24"
+			(uuid "566f7ffa-8449-48cf-8d0a-0825a28c4c21")
+		)
+		(pin "27"
+			(uuid "8e4fd641-b9b2-46b6-bbe2-16df31947192")
+		)
+		(pin "30"
+			(uuid "e3e295e4-ace8-42ed-9a79-c11700530bd1")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "J1")
 					(unit 1)
 				)
 			)
