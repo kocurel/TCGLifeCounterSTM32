@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "life_counter.kicad_prl",
+    "filename": "LifeCounter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
