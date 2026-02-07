@@ -1,0 +1,35 @@
+# Project: Life Counter (Graduation Project)
+# Document: Tactile Switch Comparative Analysis (Updated with Prototype Base)
+# Author: kocurel
+# Version: 0.0.2
+# Date: 2026-02-07
+
+[CONTEXT]
+Cel: Optymalizacja akustyczna i mechaniczna urządzenia. Wymiana standardowego 
+komponentu z prototypu (TS24N) na model o wyższej kulturze pracy (B3F-4050).
+
+[ANALYSIS]
+
+| Model                  | Typ | Siła (gf) | Wysokość | Trzpień (Główka) | Uwagi / Werdykt |
+|------------------------|-----|-----------|----------|------------------|-----------------|
+| TS24N (Diptronics)     | THT | 260 gf    | 4.3 mm   | Okrągły          | PROTOTYP: Głośny (ostry klik), duża siła nacisku. |
+| PTS125SJL73P25M LFS    | SMD | 130 gf    | 7.3 mm   | Kwadrat (Snap)   | Idealny, cichy, keycap-ready. Trudno dostępny. |
+| PTS125SL43P25M LFS     | SMD | 130 gf    | 4.3 mm   | Okrągły          | Bardzo niski profil, wymaga precyzyjnej obudowy. |
+| TACTMS-24N-F           | SMD | 160 gf    | 4.3 mm   | Okrągły          | Tani, lokalnie dostępny, głośniejszy niż Omron. |
+| B3FS-4002P (Omron)     | SMD | 150 gf    | 4.3 mm   | Okrągły (Flat)   | Wysoka jakość, średnia głośność, brak nakładek. |
+| B3F-4050 (Omron)       | THT | 130 gf    | 7.3 mm   | Kwadrat (3.8mm)  | WYBRANY: Najcichszy, wysoki, stabilny montaż. |
+
+[COMPARISON: PROTOTYPE VS. TARGET]
+Przejście z TS24N na B3F-4050 wprowadza następujące usprawnienia:
+1. Akustyka: Redukcja siły nacisku z 260gf do 130gf znacząco tłumi "trzask" membrany.
+2. Ergonomia: Dwukrotne zmniejszenie wymaganej siły nacisku poprawia komfort użytkowania.
+3. Mechanika: Zwiększenie wysokości z 4.3mm do 7.3mm pozwala na zastosowanie solidniejszej obudowy 
+   i eliminuje konieczność stosowania długich, niestabilnych popychaczy.
+4. Modularność: Zmiana trzpienia z okrągłego na kwadratowy 3.8mm umożliwia stosowanie nakładek B32.
+
+[DECISION RATIONALE]
+Wybrano model: OMRON B3F-4050. 
+Model ten stanowi bezpośrednie ulepszenie (Upgrade) względem TS24N, eliminując jego 
+największe wady: nadmierny hałas i zbyt dużą siłę wymaganą do aktywacji.
+
+# END OF DOCUMENT
