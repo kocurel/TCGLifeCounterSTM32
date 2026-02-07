@@ -1,4 +1,4 @@
-# Project: Life Counter (Graduation Project)
+# Project: Life Counter
 # Document: Tactile Switch Comparative Analysis (Updated with Prototype Base)
 # Author: kocurel
 # Version: 0.0.2

@@ -1,0 +1,63 @@
+# Project: Display Power System (FPC & MCU Integration)
+# Document: Power Stage Comparative Analysis (Boost Converter AP3012)
+# Author: kocurel
+# Version: 1.1.0 (FINAL - Updated with 82R)
+# Date: 2026-02-07
+
+[CONTEXT]
+Cel: Zasilanie podświetlenia matrycy LCD. 
+Złącze: LEDA (Anoda) / LEDK (Katoda).
+Wymagania: Vf = 12V (typ), If = 15mA (typ). 
+Ograniczenia: Wysokość H = 3mm, MCU umieszczone pod wyświetlaczem.
+
+[ANALYSIS: CAPACITORS (Output Stability)]
+---------------------------------------------------------------------------------------
+| Model (Samsung)   | Pojemność | Napięcie | Rozmiar | Grubość | DC Bias @13.25V| Werdykt |
+|-------------------|-----------|----------|---------|---------|----------------|---------|
+| CL21B105KAFNNNE   | 1 uF      | 25V      | 0805    | 1.25mm  | ~ -40%         | Ryzyko  |
+| CL21B105KBFNNNE   | 1 uF      | 50V      | 0805    | 1.25mm  | ~ -15%         | WYBRANY |
+---------------------------------------------------------------------------------------
+
+Decyzja: Zastosowanie 2x 1uF (50V) równolegle na wyjściu (C_OUT).
+Uzasadnienie: 
+1. Przy pracy z prądem (Constant Current), wysoka stabilność napięcia redukuje migotanie.
+2. Napięcie wyjściowe (V_OUT) wyniesie ok. 13.25V (Vf=12V + Vfb=1.25V). 
+3. Kondensatory 50V minimalizują DC Bias i zapewniają margines bezpieczeństwa.
+
+[ANALYSIS: CONTROL TOPOLOGY (AP3012 Configuration)]
+---------------------------------------------------------------------------------------
+| Metoda Sterowania | Konfiguracja            | Wartości      | Skutek        | Werdykt     |
+|-------------------|-------------------------|---------------|---------------|-------------|
+| Constant Voltage  | Dzielnik Napięcia       | R1/R2 ustalają| Prąd zależy   | ODRZUCONE   |
+| (Stałe Napięcie)  | (Równoległe do GND)     | sztywne 13.25V| od temp. diod | (Ryzyko)    |
+|-------------------|-------------------------|---------------|---------------|-------------|
+| Constant Current  | Rezystor Szeregowy      | Rsense: 82R   | Prąd wymuszony| WYBRANE     |
+| (Stały Prąd)      | (Low-Side Sensing)      | (Tol. 1%)     | stałe ~15.2mA | (Bezpieczne)|
+---------------------------------------------------------------------------------------
+
+[ANALYSIS: SENSE RESISTOR FINAL PARAMETERS]
+---------------------------------------------------------------------------------------
+| Parametr          | Wartość Obliczona       | Wartość Wybrana (BOM) | Skutek        |
+|-------------------|-------------------------|-----------------------|---------------|
+| Rezystancja       | 83.33 Ohm               | 82.00 Ohm (1%)        | +1.6% prądu   |
+| Prąd Wyjściowy    | 15.00 mA                | 15.24 mA              | Pomijalne     |
+| Moc na Rsense     | 18.75 mW                | 19.05 mW              | Bezpieczne    |
+---------------------------------------------------------------------------------------
+
+Implementacja "Low-Side Sensing" (Hacking FB Pin):
+Wykorzystujemy pin FB (Vref=1.25V) do stabilizacji prądu zamiast napięcia:
+1. LEDA -> Podłączona do V_OUT.
+2. LEDK -> Podłączona do pinu FB oraz Rsense.
+3. Rsense -> Podłączony między FB a GND.
+Układ podbija V_OUT tak długo, aż prąd płynący przez LEDK/Rsense wytworzy 1.25V na FB.
+
+[FINAL DECISION & BOM]
+Zatwierdzono topologię sterowania prądowego (CC) oraz PWM dimming via SHDN.
+1. Sterownik: AP3012KTR-E1 (Diodes Inc).
+2. C_IN / C_OUT: 3x CL21B105KBFNNNE (1uF / 50V / 0805) - Unifikacja BOM.
+3. R_SENSE: 82R / 1% / 0805 (np. RoyalOhm 0805S8F820JT5E).
+4. Dioda Schottky: 1N5819HWQ-7-F (SOD-123).
+5. Cewka: VLS3012CX-100M-1 (10uH / H=1.2mm).
+6. Jasność: PWM na pin SHDN (200Hz - 1kHz).
+
+# END OF DOCUMENT

@@ -221,7 +221,644 @@
 	(net 141 "unconnected-(S8-Pad2)")
 	(net 142 "unconnected-(S8-Pad3)")
 	(net 143 "unconnected-(S8-Pad1)")
+	(net 144 "Net-(IC2-GND)")
+	(net 145 "Net-(IC2-VIN)")
+	(net 146 "Net-(D1-K)")
+	(net 147 "Net-(D1-A)")
+	(net 148 "Net-(IC2-FB)")
+	(net 149 "unconnected-(IC2-~{SHDN}-Pad4)")
+	(footprint "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+		(layer "F.Cu")
+		(uuid "09438d35-137b-43c5-87c3-a524e2dfdc4b")
+		(at 158.25 66.25)
+		(descr "0805 - THICKNESS F")
+		(tags "Capacitor")
+		(property "Reference" "C2"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "342eaaf5-a7b9-41d4-b390-535790a9302e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb1dd2a8-96db-4514-be86-cd08bdec9e26")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c792235a-2956-41e7-8d0e-adebce324149")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "858939c3-3187-453d-915a-19a33701c508")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e6e4236-079a-464d-946e-489815053bc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2df9162-efd5-4186-bb61-1075c9e74486")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9fb748d-b6b0-436a-932c-9102df00fb73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2f58d3-05f8-48b7-9b39-50efed32af16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96283842-bc97-4930-ab5a-d396ee18ead5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/aab857b4-873b-4013-b150-66da9487b0a2")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.525)
+			(end 0 0.525)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70c5c5df-c4cf-457d-8d43-3fda3d4ec5a7")
+		)
+		(fp_line
+			(start -1.575 -0.95)
+			(end 1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3906bb33-a235-45a9-aae2-2302d50e67b9")
+		)
+		(fp_line
+			(start -1.575 0.95)
+			(end -1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7776ffb8-607d-4a95-92c4-b4fb2d29c50d")
+		)
+		(fp_line
+			(start 1.575 -0.95)
+			(end 1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "42bbe358-7c62-401b-bdf5-5140c4c5a1ea")
+		)
+		(fp_line
+			(start 1.575 0.95)
+			(end -1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e698da17-43d7-4483-b5bd-4b4f06cec1a2")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5c29cb7b-01be-4a13-8c0c-e65cf452add1")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db89bd54-323f-4264-b7a8-a42a1219bac3")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1bf1bc5d-147d-457f-b323-6ea4d883f85d")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "65a2bbaf-8044-4031-afb6-a49036d450a2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2ade2b5f-e54d-4981-b026-64caa418fcdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.87 0)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 146 "Net-(D1-K)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e39972e3-2249-40a6-b818-c6bec9ec00dd")
+		)
+		(pad "2" smd rect
+			(at 0.87 0)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 144 "Net-(IC2-GND)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "43f4d032-d552-4012-ad4e-7dc1320a059e")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/Samsung_CL21B105KBFNNNE.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LifeCounter-Footprints:TDK_VLS3012"
+		(layer "F.Cu")
+		(uuid "1e43b5b6-337a-4e2a-9fc5-d3ac65013e16")
+		(at 171 66 180)
+		(descr "VLS3012")
+		(tags "Inductor")
+		(property "Reference" "L1"
+			(at -0.05 -2.5 0)
+			(layer "F.SilkS")
+			(uuid "7dcd6b95-b4c7-419a-a1af-faeeebd6338d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "VLS3012CX-100M-1"
+			(at -1.383 -2.366 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6848b0c9-0fca-47de-82b5-0be83d07c0ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012cx-1_en.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f32ddf9-8b56-4ac6-abf1-ea1792e6048d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD / SMT Inductors (Coils), L=10?H, L x W x T :"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f068910c-d9bf-4cfd-8065-9c4d18a44f8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d704cd1-2a31-4d5b-a9b6-89bdc950ccb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d7b1169-0830-4fa9-b6d5-fb25b6f5c022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e61b76f-a75c-476c-b55a-d8ad7a9e0dd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dba3570d-8528-4b0b-83da-a00d76bb692c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VLS3012CX-100M-1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee651dcc-9987-4894-97d2-4192eeeda3c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d281c1c1-b1c6-4527-b82f-c31232c7a4a2")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.25 1.5)
+			(end 0.25 1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5849f92c-09b8-4959-ba3f-c10a0f0c870e")
+		)
+		(fp_line
+			(start -0.25 -1.5)
+			(end 0.25 -1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69bcf0f5-d429-47c3-a064-76eac86a1b9b")
+		)
+		(fp_rect
+			(start -2 -2.1)
+			(end 2 2)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7c3afc26-c537-4cce-a5f6-988ccf33ee42")
+		)
+		(fp_line
+			(start 1.5 1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd9b3a62-49a2-49ad-83aa-cb97ee84f26a")
+		)
+		(fp_line
+			(start 1.5 -1.5)
+			(end 1.5 1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "80c0c30b-2fd8-409a-8eb5-f20b95b96f26")
+		)
+		(fp_line
+			(start -1.5 1.5)
+			(end -1.5 -1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "803f53d7-4ea8-4a2b-8e60-afb071c5b80a")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end 1.5 -1.5)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5cb3c612-3710-4164-9fd5-19949b7b184a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.05 -2.5 0)
+			(layer "F.Fab")
+			(uuid "6bac6fcf-11f4-4ac6-871f-d4ce1b8a52a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.05 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 145 "Net-(IC2-VIN)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "97f89aee-098f-4b96-9c12-1c0d8497e323")
+		)
+		(pad "2" smd rect
+			(at 1.05 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 147 "Net-(D1-A)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "22b7303d-f101-486a-908e-aa2166ed1dd2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/TDK_VLS3012CX-100M-1.stp"
+			(offset
+				(xyz 0 0 0.009999999626)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(layer "F.Cu")
+		(uuid "21f99220-a1de-4ae9-a5ac-16bc3d086dbb")
+		(at 164.5 73.25 90)
+		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R1"
+			(at 0 -1.65 90)
+			(layer "F.SilkS")
+			(uuid "3bbb8406-cabf-4950-aa6e-d6cc71ea1085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0805S8F820JT5E"
+			(at 0 1.65 90)
+			(layer "F.Fab")
+			(uuid "cf5f6a1f-cb46-4c4f-a0c1-4aec49d030e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e7d2a9f-2080-4466-a870-6856d5d512e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57758583-383a-4edf-9f3e-68f3c9a6c997")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/b8711843-62c5-4eda-bbeb-5ea9e94de8f9")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.227064 -0.735)
+			(end 0.227064 -0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "caa5063a-e71e-4408-9327-31c955878565")
+		)
+		(fp_line
+			(start -0.227064 0.735)
+			(end 0.227064 0.735)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5934e82a-c2fe-4507-bdb5-b4287ede9f08")
+		)
+		(fp_rect
+			(start -1.85 -0.95)
+			(end 1.85 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2b053fa8-71c9-4721-a5a5-f2aed4e12f07")
+		)
+		(fp_rect
+			(start -1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1ccb582a-1429-4607-9554-f48910b12334")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "0a2ddb60-74bc-43a9-bdb3-8dbd7001217d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1 0 90)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net 148 "Net-(IC2-FB)")
+			(pintype "passive")
+			(uuid "2631f09c-b438-4f60-87ba-76a3bcc9ae3e")
+		)
+		(pad "2" smd roundrect
+			(at 1 0 90)
+			(size 1.2 1.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.208333)
+			(net 144 "Net-(IC2-GND)")
+			(pintype "passive")
+			(uuid "b5e34f42-c5e7-4ade-9c45-35079e101dfe")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LifeCounter-Footprints:Displaytech_DT024DTFT"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2a336e89-79ef-432b-8cfd-102599e4d9e1")
 		(at 143 83 -90)
@@ -229,7 +866,7 @@
 			(at 0 -3 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "384f89d0-9502-4925-abb6-9ab7e34bd6ad")
+			(uuid "f3acae33-d5c3-4067-84b4-094d974c4aba")
 			(effects
 				(font
 					(size 1 1)
@@ -241,7 +878,7 @@
 			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "14ecdd07-e6c2-4a40-8f98-c5734c9ade25")
+			(uuid "0b4df1e0-ebee-4e76-a61d-980ece4c7c6f")
 			(effects
 				(font
 					(size 1 1)
@@ -254,7 +891,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4488d79-03bf-4414-b877-0f060ffc9654")
+			(uuid "572e941e-e4a9-4ff6-bdb4-efcd8adae2af")
 			(effects
 				(font
 					(size 1 1)
@@ -267,7 +904,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78ab7ce8-81ee-429a-95f0-c56723145340")
+			(uuid "f21e7e1a-4dc0-4361-922c-ea9462f25a08")
 			(effects
 				(font
 					(size 1 1)
@@ -1950,7 +2587,7 @@
 	(footprint "LifeCounter-Footprints:LQFP-64_10x10mm_P0.5mm_STM32"
 		(layer "F.Cu")
 		(uuid "877eb05a-048e-42c5-93d1-53ed1070dd75")
-		(at 172 83.25)
+		(at 172.25 86.25)
 		(descr "LQFP64")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
@@ -3622,6 +4259,280 @@
 			)
 		)
 	)
+	(footprint "LifeCounter-Footprints:Diodes-Inc_SOD3716X145M"
+		(layer "F.Cu")
+		(uuid "94cd14de-0798-40da-9b43-c96625d55521")
+		(at 165 65.75)
+		(descr "SOD123")
+		(tags "Schottky Diode")
+		(property "Reference" "D1"
+			(at 0 -1.6 0)
+			(layer "F.SilkS")
+			(uuid "e3f33a49-1c4f-4d34-8c68-2b8057e539b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "1N5819HWQ-7-F"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2764369f-257b-456d-b347-b23ac8b85ff9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c6b3d77-90ca-4bc1-b533-34409c59b6a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Schottky Diode 40 V 1A Surface Mount SOD-123"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a907cd3-e60b-4056-bf87-8ac6789970f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89e3b971-4865-463f-b08d-812e872cb9e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ed000a-4296-4ea9-b16a-8646b9453a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff0d664e-2d20-43c4-bce3-4718cf27f3b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ebb3bf2-8866-4a01-8a61-803308d4e960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N5819HWQ-7-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbae775f-4fde-4b0b-a239-bb71f06a6c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ec897151-8dbd-43ae-9c70-2a55d8d9dc70")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.5 -0.775)
+			(end 1.35 -0.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66ff620b-40b2-4a31-a752-dbc5ad7bdb66")
+		)
+		(fp_line
+			(start -1.35 0.775)
+			(end 1.35 0.775)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab9dc766-c73c-4381-a05e-993d58a1535b")
+		)
+		(fp_line
+			(start -3 -1.925)
+			(end 3 -1.925)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "72589485-082a-4c70-ab86-60da50d91368")
+		)
+		(fp_line
+			(start -3 1.925)
+			(end -3 -1.925)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5011a4b4-81ab-47a9-affa-83514d368ecc")
+		)
+		(fp_line
+			(start 3 -1.925)
+			(end 3 1.925)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0049bfb5-0f21-4a7f-ad07-54e5c7e62437")
+		)
+		(fp_line
+			(start 3 1.925)
+			(end -3 1.925)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d39c2e94-8504-49b8-b618-97c9c68ef3c8")
+		)
+		(fp_line
+			(start -1.35 -0.775)
+			(end 1.35 -0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e66ae9d-992a-4132-acf5-4cda0ff698eb")
+		)
+		(fp_line
+			(start -1.35 -0.025)
+			(end -0.6 -0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2099bb2-8db9-4311-ad66-7d980c9d5c45")
+		)
+		(fp_line
+			(start -1.35 0.775)
+			(end -1.35 -0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1556a74a-59c3-42be-a3b9-a5100eb73c84")
+		)
+		(fp_line
+			(start 1.35 -0.775)
+			(end 1.35 0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8469606c-1db5-4863-8795-02184fbe5495")
+		)
+		(fp_line
+			(start 1.35 0.775)
+			(end -1.35 0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1db4c416-9dc4-40ce-be39-eb828317d071")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.6 0)
+			(layer "F.Fab")
+			(uuid "76b39b1b-8de2-454b-aa16-651007596ac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.75 0 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 146 "Net-(D1-K)")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "bb13edac-2f30-4580-944c-25a4c0f58b34")
+		)
+		(pad "2" smd rect
+			(at 1.75 0 90)
+			(size 0.8 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 147 "Net-(D1-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "f890f605-0391-4edc-a2ca-0994da832bd2")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/Diodes-Inc_1N5819HWQ-7-F.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LifeCounter-Footprints:Omron_B3F4050"
 		(layer "F.Cu")
 		(uuid "9e0db0a7-37e8-4a84-8b9d-776389b1e37b")
@@ -4025,6 +4936,260 @@
 			)
 			(rotate
 				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+		(layer "F.Cu")
+		(uuid "c3a216c5-c83d-4ff2-a21f-2f327f609fd7")
+		(at 158.25 69.2)
+		(descr "0805 - THICKNESS F")
+		(tags "Capacitor")
+		(property "Reference" "C3"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(uuid "910eb468-cd4d-434a-bcc9-9d6d7e802923")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f478033d-ee1b-4c38-b0b1-a2f98ecf4040")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4781cbc7-3a19-4a3b-ab26-531bee394f45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af8c0ac-b2d9-4c37-b4f8-2694a2e8818d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.35"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f3830ec-f29e-441c-b96f-5473c93acdce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b928f90-5e94-4b8e-844b-b32dc745bf69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b77cc94e-dafb-48e5-9812-992e3e08eb0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c97205c-eaa5-45d3-9c15-d9a77141e6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a736de-53ba-4ca0-9b4a-86e087b441c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2a727d99-be3a-49d2-84fe-8a41b75d7e5d")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.525)
+			(end 0 0.525)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a1c4ac3-9342-48ce-b814-bcd46051eaea")
+		)
+		(fp_line
+			(start -1.575 -0.95)
+			(end 1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d172d014-e88f-4245-88fb-1eb87ccf4849")
+		)
+		(fp_line
+			(start -1.575 0.95)
+			(end -1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0a04c585-6a8d-4ab9-bf9c-fdeba2da1b46")
+		)
+		(fp_line
+			(start 1.575 -0.95)
+			(end 1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0af7928e-69dc-4317-898a-2153cd9853ed")
+		)
+		(fp_line
+			(start 1.575 0.95)
+			(end -1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d2fa74e8-153f-4e3b-ab37-bb21d0fb72d1")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2b831d95-1979-4bf2-b3e4-61084e821b56")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3d8f1b99-522b-4545-9609-968e83947a2b")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "199d5ab6-b569-4c6a-a55a-7d83cdf4b721")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e3e0baa8-8b1d-4e66-990c-547babb98cdd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "446e326b-8480-43f1-bf43-7fbaf5516e9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.87 0)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 146 "Net-(D1-K)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "585585ca-6ec3-4fb1-9fb2-fccbbe6e5988")
+		)
+		(pad "2" smd rect
+			(at 0.87 0)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 144 "Net-(IC2-GND)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "74ef6648-53c0-421b-8bec-d516817cecff")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/Samsung_CL21B105KBFNNNE.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5020,6 +6185,591 @@
 			)
 		)
 	)
+	(footprint "LifeCounter-Footprints:Diodes-Inc_SOT95P282X145-5M"
+		(layer "F.Cu")
+		(uuid "d2642684-ff13-4d05-a582-bc2f5f6d4647")
+		(at 170.25 71.75)
+		(descr "SOT-23-5 height 1.45")
+		(tags "Integrated Circuit")
+		(property "Reference" "IC2"
+			(at 0 2.5 0)
+			(layer "F.SilkS")
+			(uuid "07a77c9a-60f6-4979-8b4b-46d1116fbbda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "AP3012KTR-E1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b43ba791-65bc-4503-b0c7-85d5305324d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP3012.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d59b009b-b4e5-4c28-8f5a-0bdb4d769281")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5MHz DC/DC 2.6V to 16V"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0be6f117-8aed-424e-b9c6-af850c864cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b32f4a-0294-4984-a2f1-0a6ad448022c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38ded908-18d5-4496-a596-e90fc7f2625a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c44111ea-143e-41ce-adca-c902d891ed81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bf008ab-c248-46a8-a127-d1586298ce0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP3012KTR-E1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2be74f74-5d1e-409e-ac76-ea0079feb8a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c61010c2-6131-4af0-9e36-2d9df498ea9c")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.05 -1.525)
+			(end -0.55 -1.525)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0be263df-e124-41f1-973e-c15d8aca1a17")
+		)
+		(fp_line
+			(start -0.2 -1.48)
+			(end 0.2 -1.48)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2eb2600b-a153-499c-81cb-4bc1e3f8a86e")
+		)
+		(fp_line
+			(start -0.2 1.48)
+			(end -0.2 -1.48)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0260eadb-493e-45f9-9a6a-3c647b890c9c")
+		)
+		(fp_line
+			(start 0.2 -1.48)
+			(end 0.2 1.48)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99e6ef91-883b-41de-9e97-faa9c1a9db58")
+		)
+		(fp_line
+			(start 0.2 1.48)
+			(end -0.2 1.48)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9be2687-3403-4c7c-b49b-e1ca3cb5c5a9")
+		)
+		(fp_line
+			(start -2.55 -2.05)
+			(end 2.55 -2.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee2d9361-fc58-4ee8-b037-997635c93dcf")
+		)
+		(fp_line
+			(start -2.55 2.05)
+			(end -2.55 -2.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6eb7ba0a-ef80-4587-b942-bb806f5715ff")
+		)
+		(fp_line
+			(start 2.55 -2.05)
+			(end 2.55 2.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "24111309-eb69-4b30-a85d-bc4a5b94aaed")
+		)
+		(fp_line
+			(start 2.55 2.05)
+			(end -2.55 2.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "77a61d91-8fc6-4ea1-8e9e-ac70f3ce4080")
+		)
+		(fp_line
+			(start -0.8 -1.48)
+			(end 0.8 -1.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e355917-d363-4a20-9df7-f24c286ca9ab")
+		)
+		(fp_line
+			(start -0.8 -0.53)
+			(end 0.15 -1.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b26fb2e3-1f2a-4da0-9d59-1dc32e0d800d")
+		)
+		(fp_line
+			(start -0.8 1.48)
+			(end -0.8 -1.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d237916-422b-4191-9743-ad766ee16ad0")
+		)
+		(fp_line
+			(start 0.8 -1.48)
+			(end 0.8 1.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b4eda36-fc3b-451f-adfd-abf8d0205720")
+		)
+		(fp_line
+			(start 0.8 1.48)
+			(end -0.8 1.48)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2651f5af-7308-4bbc-a5ca-9c3038cad3d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(layer "F.Fab")
+			(uuid "ed34ab51-3fc4-4287-bc26-896914dc97d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -1.3 -0.95 90)
+			(size 0.65 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 147 "Net-(D1-A)")
+			(pinfunction "SW")
+			(pintype "passive")
+			(uuid "8cdb0036-c576-442f-98ed-a6e10d4f67c5")
+		)
+		(pad "2" smd rect
+			(at -1.3 0 90)
+			(size 0.65 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 144 "Net-(IC2-GND)")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "da83e02b-dcc1-4763-9e11-145232175e50")
+		)
+		(pad "3" smd rect
+			(at -1.3 0.95 90)
+			(size 0.65 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 148 "Net-(IC2-FB)")
+			(pinfunction "FB")
+			(pintype "passive")
+			(uuid "0f73013c-aa50-4a4e-b803-46e01cf85e5a")
+		)
+		(pad "4" smd rect
+			(at 1.3 0.95 90)
+			(size 0.65 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 149 "unconnected-(IC2-~{SHDN}-Pad4)")
+			(pinfunction "~{SHDN}")
+			(pintype "passive")
+			(uuid "42f3fa24-d014-4cf6-bd55-5ffbb120d16c")
+		)
+		(pad "5" smd rect
+			(at 1.3 -0.95 90)
+			(size 0.65 1.5)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 145 "Net-(IC2-VIN)")
+			(pinfunction "VIN")
+			(pintype "passive")
+			(uuid "2a82e4e0-e690-4fb6-84bb-9e61515410ca")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/BCD_AP3012KTR-E1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+		(layer "F.Cu")
+		(uuid "d69728c8-8b7c-481e-9aec-99dc4255cf18")
+		(at 175.25 71 -90)
+		(descr "0805 - THICKNESS F")
+		(tags "Capacitor")
+		(property "Reference" "C1"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(uuid "5c319a04-550f-41a0-8f55-ed64fe1ae6e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5030b0cc-ba15-4264-98cc-55320a876246")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad90df79-5b30-49d0-98c2-fc5380c04eec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8282ee29-9bcb-40b6-b903-54ca6abbe7dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Height" "1.35"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "155e5954-7ce0-48b3-ace0-a4c82e4a945d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04afa7cb-9b1e-4761-90db-857d6edf3453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c53cff8-53be-4fcb-a2d7-14ca94f722d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "638c4b1b-6cf3-4fc3-b209-0e0a6bb4f034")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a01fec5d-1484-45c2-83ef-6675f8900b9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c8456e85-5d4f-45ce-a5a5-af10f819d516")
+		(sheetname "/")
+		(sheetfile "LifeCounter.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0 -0.525)
+			(end 0 0.525)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9f688c2c-c54c-4177-9762-ad7a94912e2d")
+		)
+		(fp_line
+			(start -1.575 0.95)
+			(end -1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fda8fd66-6f43-4a87-a323-9e266f0b6c38")
+		)
+		(fp_line
+			(start 1.575 0.95)
+			(end -1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b47658df-b786-4cef-b72b-129a4b1ab39c")
+		)
+		(fp_line
+			(start -1.575 -0.95)
+			(end 1.575 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "950344b3-478a-4449-a785-5dec4c4ee639")
+		)
+		(fp_line
+			(start 1.575 -0.95)
+			(end 1.575 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a951c9f9-95d4-40b7-8803-b87749a521dc")
+		)
+		(fp_line
+			(start -1 0.625)
+			(end -1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dace2b79-18da-4dc4-b33d-192c3378fca4")
+		)
+		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e03bc91d-a635-4b5d-99ce-f47ef210f395")
+		)
+		(fp_line
+			(start -1 -0.625)
+			(end 1 -0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f4fc8467-86a8-47b7-816b-f1ecdc2e272f")
+		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5851f3e9-e369-4213-9ce3-909b3d6c850f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "a704a402-2ab8-47a1-b836-4a495bfdb3d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -0.87 0 270)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 145 "Net-(IC2-VIN)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fae5507c-8b97-4b05-a6a3-b3e5c3d0e527")
+		)
+		(pad "2" smd rect
+			(at 0.87 0 270)
+			(size 1.01 1.49)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 144 "Net-(IC2-GND)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "a26d0997-5bfa-4e77-a4ce-21e5d7f3e123")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/libs/models/Samsung_CL21B105KBFNNNE.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LifeCounter-Footprints:Omron_B3F4050"
 		(layer "F.Cu")
 		(uuid "d9a5a97e-cce8-4125-ada9-0ab759ba5e76")
@@ -5436,6 +7186,174 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "77bf7be2-58c7-46d5-bdd7-2b4d05ebedd9")
+	)
+	(segment
+		(start 168.95 71.75)
+		(end 165 71.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "1d22c3cf-6681-432f-8563-06752627c262")
+	)
+	(segment
+		(start 159.12 66.25)
+		(end 159.12 69.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "28c7f1a2-4945-47cd-bf24-780f7895b8e9")
+	)
+	(segment
+		(start 175.25 71.87)
+		(end 169.07 71.87)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "6196edcc-16ec-44cd-8637-feb25e3da11b")
+	)
+	(segment
+		(start 169.07 71.87)
+		(end 168.95 71.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "74e15eff-39b0-408e-9288-86f7fe32b41c")
+	)
+	(segment
+		(start 165 71.75)
+		(end 164.5 72.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "a76f3bfb-4c36-4f51-b45f-bcd9226611b4")
+	)
+	(segment
+		(start 164.5 72.25)
+		(end 162.17 72.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "c82b7f03-faeb-41fd-ac06-408912fb342c")
+	)
+	(segment
+		(start 162.17 72.25)
+		(end 159.12 69.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 144)
+		(uuid "cfa95ac3-5330-4d6b-af13-ef81e2023d52")
+	)
+	(segment
+		(start 171.55 70.8)
+		(end 171.55 66.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 145)
+		(uuid "4073deb4-c449-4236-b871-bc353b300ed1")
+	)
+	(segment
+		(start 172.22 70.13)
+		(end 171.55 70.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 145)
+		(uuid "44fcd77b-147c-4de8-b7f3-94015632516a")
+	)
+	(segment
+		(start 171.55 66.5)
+		(end 172.05 66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 145)
+		(uuid "54e73d11-a867-4772-b0be-ec4ed75ab050")
+	)
+	(segment
+		(start 175.25 70.13)
+		(end 172.22 70.13)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 145)
+		(uuid "5cfb344c-fe2a-4366-b165-51bd06251964")
+	)
+	(segment
+		(start 162.65 65.15)
+		(end 158.48 65.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "483110fa-02bb-4083-8c8d-90b0b8c1790f")
+	)
+	(segment
+		(start 163.25 65.75)
+		(end 162.65 65.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "4f69ed6d-0a1b-46ca-9f04-efffda307627")
+	)
+	(segment
+		(start 157.38 69.2)
+		(end 157.38 66.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "8fbe8416-85fb-4b6d-b69c-b40ff33d31d6")
+	)
+	(segment
+		(start 158.48 65.15)
+		(end 157.38 66.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 146)
+		(uuid "d978f854-c66a-4176-aa18-a4e17cce9887")
+	)
+	(segment
+		(start 168.95 67)
+		(end 169.95 66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 147)
+		(uuid "0b03a77f-a601-490a-8ae8-ea6ab264a79d")
+	)
+	(segment
+		(start 168.95 70.8)
+		(end 168.95 67)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 147)
+		(uuid "362238de-15b9-44b3-8ae6-3f18abb6d4db")
+	)
+	(segment
+		(start 169.7 65.75)
+		(end 169.95 66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 147)
+		(uuid "528f1325-2514-491d-8fad-0d22c7b4efdf")
+	)
+	(segment
+		(start 166.75 65.75)
+		(end 169.7 65.75)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 147)
+		(uuid "608fc5df-3c80-4589-ab31-2772d33ffcb7")
+	)
+	(segment
+		(start 167.4 74.25)
+		(end 168.95 72.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 148)
+		(uuid "df666585-6e9d-406f-8783-e25428f00a11")
+	)
+	(segment
+		(start 164.5 74.25)
+		(end 167.4 74.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 148)
+		(uuid "f48f04bc-66bd-4afc-8146-0ff1d2725e39")
 	)
 	(embedded_fonts no)
 )

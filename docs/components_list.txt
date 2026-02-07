@@ -1,0 +1,6 @@
+https://www.tme.eu/pl/details/smd0805-82r-1%25/rezystory-smd/royalohm/0805s8f820jt5e/
+https://www.tme.eu/pl/details/stm32h562rgt6/mikrokontrolery-st/stmicroelectronics/
+https://www.tme.eu/en/details/ap3012ktr-e1/voltage-regulators-dc-dc-circuits/diodes-incorporated/
+https://www.tme.eu/pl/details/vls3012cx-100m-1/dlawiki/tdk/
+https://www.tme.eu/en/details/dt024dtft/tft-displays/displaytech/
+https://www.tme.eu/en/details/cl21b105kbfnnne/mlcc-smd-capacitors/samsung/

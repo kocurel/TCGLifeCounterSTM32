@@ -1,0 +1,181 @@
+(footprint "Samsung_CAPC2012X135M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "0805 - THICKNESS F")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "521674a3-8fb5-48c2-b7e9-4acbe7cc94c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC2012X135M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a6b3630a-6209-4cb9-9610-8eae1136ae25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8278285-ebc7-4fc9-b3f4-497aa6f13a29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df2adbf4-5b5e-4eaa-8832-ca7e791b0116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.525)
+		(end 0 0.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a06d02c-6de6-49a0-ade4-f7f3a8c65608")
+	)
+	(fp_line
+		(start -1.575 -0.95)
+		(end 1.575 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d646aa9f-4569-4199-9e9f-843dc6d72d2a")
+	)
+	(fp_line
+		(start -1.575 0.95)
+		(end -1.575 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "214c9cdf-26b4-4aee-87b7-77c2c9abcf47")
+	)
+	(fp_line
+		(start 1.575 -0.95)
+		(end 1.575 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8f69584e-232c-4fbd-8250-6e1757d07f31")
+	)
+	(fp_line
+		(start 1.575 0.95)
+		(end -1.575 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5472b4e9-aaf9-40ef-979d-7b420d48b51a")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fba05dcf-8392-4f60-b788-f948d84d090d")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbe5af70-47f2-4963-baf3-d2565f1cf7b4")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3410c0d1-0638-4aa4-831c-040d104efba4")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bdf3db0-12ec-46b1-b36a-32bb57e5d628")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2bf160ed-fe85-45af-98c0-1dcaf88dfb0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.87 0)
+		(size 1.01 1.49)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccc2b0e7-9d06-4a78-9d2c-95d3d57c0087")
+	)
+	(pad "2" smd rect
+		(at 0.87 0)
+		(size 1.01 1.49)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f21e611a-6bb7-4204-8898-3a565e8d5ac6")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models/Samsung_CL21B105KBFNNNE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

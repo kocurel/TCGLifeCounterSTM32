@@ -5,6 +5,370 @@
 	(uuid "4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LifeCounter-Symbols:1N5819HWQ-7-F"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1N5819HWQ-7-F"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOD3716X145M"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky Diode 40 V 1A Surface Mount SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1N5819HWQ-7-F"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819HWQ-7-F_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.604 -1.524) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 12.7 2.54) (xy 12.7 -2.54) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 6.604 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 1.524) (xy 8.636 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 0) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LifeCounter-Symbols:54104-4531"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -967,6 +1331,212 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LifeCounter-Symbols:AP3012KTR-E1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AP3012KTR-E1"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOT95P282X145-5M"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP3012.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators 1.5MHz DC/DC 2.6V to 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AP3012KTR-E1"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AP3012KTR-E1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LifeCounter-Symbols:B3F-4050"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1145,6 +1715,198 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LifeCounter-Symbols:CL21B105KBFNNNE"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CL21B105KBFNNNE"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.35"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "SAMSUNG"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B105KBFNNNE_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2423,45 +3185,505 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LifeCounter-Symbols:VLS3012CX-100M-1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "VLS3012CX-100M-1"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:TDK_VLS3012"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012cx-1_en.pdf"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD / SMT Inductors (Coils), L=10?H, L x W x T :"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 16.51 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 16.51 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 16.51 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 16.51 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "VLS3012CX-100M-1"
+				(at 16.51 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "VLS3012CX-100M-1_1_1"
+				(arc
+					(start 5.08 0)
+					(mid 6.35 1.219)
+					(end 7.62 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 0)
+					(mid 8.89 1.219)
+					(end 10.16 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 10.16 0)
+					(mid 11.43 1.219)
+					(end 12.7 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 12.7 0)
+					(mid 13.97 1.219)
+					(end 15.24 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 200.66 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29182cd6-295c-47fb-86c1-c50612dc8ec9")
+	)
+	(junction
+		(at 226.06 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fab1dc4-7a4f-4c3d-a5bb-57a9a49d7743")
+	)
+	(junction
+		(at 201.93 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93a7198c-283d-459d-b4f8-c35732d9c5dd")
+	)
+	(junction
+		(at 161.29 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "badcbc32-f25d-4ed1-b2b2-f0149ee27431")
+	)
+	(junction
+		(at 226.06 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2decc81-0526-4fd3-a4cf-832b63ef3f3c")
+	)
+	(junction
+		(at 205.74 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d62a7240-b4b5-4e08-88ca-cc5fec4e3651")
+	)
+	(wire
+		(pts
+			(xy 161.29 116.84) (xy 168.91 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0966a249-f050-47db-b407-e11cfc05fd73")
+	)
+	(wire
+		(pts
+			(xy 226.06 132.08) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12712280-b51c-4f44-a180-eed37b44d27e")
+	)
+	(wire
+		(pts
+			(xy 196.85 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2435cc96-0661-46e2-b4ec-d4f645a16caa")
+	)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f19bdd9-b961-4660-8b92-8ff81dc1302d")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 201.93 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7cb598-3fff-45ca-b3b4-4c288b346030")
+	)
+	(wire
+		(pts
+			(xy 200.66 132.08) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd9a63e-9887-46ca-9e78-cef93397bd2a")
+	)
+	(wire
+		(pts
+			(xy 201.93 101.6) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537dd2e2-e101-4358-8fa1-4e1869301f86")
+	)
+	(wire
+		(pts
+			(xy 201.93 114.3) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3dfa42-5d60-4a51-a0a1-31207bf320f1")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa36350-eb1f-4dde-a324-945aeaa0a5bf")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e200557-cec2-433b-952a-84f9dfc8004f")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 226.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e99239d-8a6b-48a7-b5e5-4b26ec615e90")
+	)
+	(wire
+		(pts
+			(xy 226.06 121.92) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77eae637-b026-44ac-a27e-fc357035f323")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9971ba-6e83-461a-b64c-2c8575373725")
+	)
+	(wire
+		(pts
+			(xy 240.03 132.08) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871f0866-fa7a-46af-8bc8-e0097adba597")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d16b815-865c-4a37-99b4-01d9c3438b16")
+	)
+	(wire
+		(pts
+			(xy 161.29 132.08) (xy 161.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4876ed-7cce-45cd-a81d-1d41f7e3dda5")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 161.29 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92fe525-b80a-484c-b67e-6221c17e6a29")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d807229a-bc52-4ea1-9daa-64cde35865fc")
+	)
+	(wire
+		(pts
+			(xy 240.03 121.92) (xy 240.03 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee418a8-8698-4274-a68a-496b31eb61ab")
+	)
+	(wire
+		(pts
+			(xy 200.66 116.84) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24a9803-84bd-4c3a-abd0-ccef28cdf159")
+	)
+	(wire
+		(pts
+			(xy 201.93 101.6) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5cee37d-8412-4ddc-9dac-c9d8a45b59b0")
+	)
+	(wire
+		(pts
+			(xy 196.85 119.38) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9abd2eb-9bf0-406d-baac-f73f9bcec12f")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 205.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd50d20a-842f-4eaf-badd-92b50b15ef12")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 226.06 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd4aa8e-253b-4b35-98a3-1c782cd322b6")
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 181.61 82.55 0)
+		(lib_id "LifeCounter-Symbols:CL21B105KBFNNNE")
+		(at 226.06 109.22 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c0de8d5-3f57-4e01-9fba-5cb1f518fe3d")
-		(property "Reference" "S7"
-			(at 191.77 74.93 0)
+		(uuid "2a727d99-be3a-49d2-84fe-8a41b75d7e5d")
+		(property "Reference" "C3"
+			(at 222.25 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "B3F-4050"
-			(at 191.77 77.47 0)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 222.25 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 198.12 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 198.12 277.47 0)
+		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+			(at 322.25 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,8 +3692,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 181.61 82.55 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at 422.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 226.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2479,8 +3711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.5"
-			(at 198.12 477.47 0)
+		(property "Height" "1.35"
+			(at 622.25 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +3722,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 198.12 577.47 0)
+			(at 722.25 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +3732,127 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 198.12 677.47 0)
+			(at 822.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 922.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 1022.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "241566f9-ca9a-4510-954d-009ddd61be42")
+		)
+		(pin "1"
+			(uuid "7d3c5ea1-f2df-4035-8d6c-5e77fd813e26")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:B3F-4050")
+		(at 175.26 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c0de8d5-3f57-4e01-9fba-5cb1f518fe3d")
+		(property "Reference" "S7"
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-4050"
+			(at 185.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
+			(at 191.77 143.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
+			(at 191.77 243.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
+			(at 175.26 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.5"
+			(at 191.77 443.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 191.77 543.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 191.77 643.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +3862,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 198.12 777.47 0)
+			(at 191.77 743.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +3872,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 198.12 877.47 0)
+			(at 191.77 843.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +4030,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 224.79 83.82 0)
+		(at 218.44 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2687,7 +4039,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa326ebc-10a5-4ec3-b4d6-9e0acbc347c7")
 		(property "Reference" "S6"
-			(at 234.95 76.2 0)
+			(at 228.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +4047,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 234.95 78.74 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,7 +4055,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 241.3 178.74 0)
+			(at 234.95 144.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +4065,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 241.3 278.74 0)
+			(at 234.95 244.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2723,7 +4075,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 224.79 83.82 0)
+			(at 218.44 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +4084,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 241.3 478.74 0)
+			(at 234.95 444.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +4094,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 241.3 578.74 0)
+			(at 234.95 544.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +4104,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 241.3 678.74 0)
+			(at 234.95 644.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +4114,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 241.3 778.74 0)
+			(at 234.95 744.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +4124,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 241.3 878.74 0)
+			(at 234.95 844.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,43 +4155,34 @@
 		)
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 208.28 99.06 0)
+		(lib_id "LifeCounter-Symbols:CL21B105KBFNNNE")
+		(at 240.03 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae91a10b-d23e-4627-9fd7-fc81aecf1a45")
-		(property "Reference" "S8"
-			(at 218.44 91.44 0)
+		(uuid "aab857b4-873b-4013-b150-66da9487b0a2")
+		(property "Reference" "C2"
+			(at 243.84 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "B3F-4050"
-			(at 218.44 93.98 0)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 243.84 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 224.79 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 224.79 293.98 0)
+		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+			(at 143.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,8 +4191,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 208.28 99.06 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at 43.84 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 240.03 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,8 +4210,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.5"
-			(at 224.79 493.98 0)
+		(property "Height" "1.35"
+			(at -156.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +4221,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 224.79 593.98 0)
+			(at -256.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +4231,127 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 224.79 693.98 0)
+			(at -356.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at -456.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at -556.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "846317ea-4b89-42ad-9ca5-3f5b8b3d9648")
+		)
+		(pin "1"
+			(uuid "cc0a6364-50fc-40a9-9cb6-fea4fce22653")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:B3F-4050")
+		(at 201.93 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae91a10b-d23e-4627-9fd7-fc81aecf1a45")
+		(property "Reference" "S8"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F-4050"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
+			(at 218.44 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
+			(at 218.44 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.5"
+			(at 218.44 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 218.44 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 218.44 659.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +4361,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 224.79 793.98 0)
+			(at 218.44 759.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +4371,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 224.79 893.98 0)
+			(at 218.44 859.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,6 +4396,75 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8711843-62c5-4eda-bbeb-5ea9e94de8f9")
+		(property "Reference" "R1"
+			(at 208.28 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0805S8F820JT5E"
+			(at 208.28 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 203.962 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9069ff6f-41b0-4b95-8f6e-e5cfbdd24d52")
+		)
+		(pin "2"
+			(uuid "782851c1-2101-4450-9829-0a3380f7135b")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3182,7 +4724,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 201.93 69.85 0)
+		(at 195.58 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3191,7 +4733,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5e9935e-85b6-4e9a-b82a-02fa6119f385")
 		(property "Reference" "S5"
-			(at 212.09 62.23 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3199,7 +4741,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 212.09 64.77 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +4749,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 218.44 164.77 0)
+			(at 212.09 130.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +4759,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 218.44 264.77 0)
+			(at 212.09 230.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4769,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 201.93 69.85 0)
+			(at 195.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +4778,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 218.44 464.77 0)
+			(at 212.09 430.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +4788,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 218.44 564.77 0)
+			(at 212.09 530.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +4798,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 218.44 664.77 0)
+			(at 212.09 630.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +4808,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 218.44 764.77 0)
+			(at 212.09 730.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +4818,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 218.44 864.77 0)
+			(at 212.09 830.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,6 +4843,256 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:AP3012KTR-E1")
+		(at 196.85 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c61010c2-6131-4af0-9e36-2d9df498ea9c")
+		(property "Reference" "IC2"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP3012KTR-E1"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOT95P282X145-5M"
+			(at 172.72 209.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP3012.pdf"
+			(at 172.72 309.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5MHz DC/DC 2.6V to 16V"
+			(at 196.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 172.72 509.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 172.72 609.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 172.72 709.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 172.72 809.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AP3012KTR-E1"
+			(at 172.72 909.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "02f3a6e8-84a5-4bc7-b78d-824826c7c345")
+		)
+		(pin "5"
+			(uuid "94b22a43-a7a9-4b5e-8be7-1db4acfdd090")
+		)
+		(pin "3"
+			(uuid "25f99a1f-280c-4ddb-be55-e3c5e375d928")
+		)
+		(pin "2"
+			(uuid "5e63c42e-d680-43d4-8b6c-950529f839f3")
+		)
+		(pin "1"
+			(uuid "6484430e-2af9-4e36-a730-54707c37e5c7")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:CL21B105KBFNNNE")
+		(at 161.29 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8456e85-5d4f-45ce-a5a5-af10f819d516")
+		(property "Reference" "C1"
+			(at 165.1 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL21B105KBFNNNE"
+			(at 165.1 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC2012X135M"
+			(at 65.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/CL21B105KBFNNNE.pdf"
+			(at -34.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SAMSUNG ELECTRO-MECHANICS - CL21B105KBFNNNE - CERAMIC MULTILAYER MLCC CAPACITORS- SMD"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at -234.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -334.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -434.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at -534.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at -634.9 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05f9389b-c58d-49dc-8e63-ebedbdfe115c")
+		)
+		(pin "1"
+			(uuid "a092703b-4e64-4739-902d-3d405c962266")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3434,7 +5226,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:54104-4531")
-		(at 128.27 38.1 0)
+		(at 91.44 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3443,7 +5235,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce834519-02d9-4080-8867-8050de6349c4")
 		(property "Reference" "J1"
-			(at 140.97 30.48 0)
+			(at 104.14 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +5243,7 @@
 			)
 		)
 		(property "Value" "54104-4531"
-			(at 140.97 33.02 0)
+			(at 104.14 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Molex_54104-4531"
-			(at 149.86 133.02 0)
+			(at 113.03 119.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +5261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 233.02 0)
+			(at 113.03 219.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +5271,7 @@
 			)
 		)
 		(property "Description" "FFC & FPC Connectors 0.5 FPC ZIF SMT R/AU prCont45CktEmbsTpPkg"
-			(at 128.27 38.1 0)
+			(at 91.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,7 +5280,7 @@
 			)
 		)
 		(property "Height" "2"
-			(at 149.86 433.02 0)
+			(at 113.03 419.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +5290,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-54104-4531"
-			(at 149.86 533.02 0)
+			(at 113.03 519.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +5300,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54104-4531?qs=sMDukONGwJXyyUSAdQyS2w%3D%3D"
-			(at 149.86 633.02 0)
+			(at 113.03 619.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +5310,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 149.86 733.02 0)
+			(at 113.03 719.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +5320,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "54104-4531"
-			(at 149.86 833.02 0)
+			(at 113.03 819.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,43 +5480,32 @@
 		)
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:STM32H562RGT6")
-		(at 39.37 111.76 0)
+		(lib_id "LifeCounter-Symbols:VLS3012CX-100M-1")
+		(at 173.99 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4264338-97b5-403e-b95b-b479312c11b6")
-		(property "Reference" "IC1"
-			(at 96.52 105.3398 0)
+		(uuid "d281c1c1-b1c6-4527-b82f-c31232c7a4a2")
+		(property "Reference" "L1"
+			(at 184.15 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "STM32H562RGT6"
-			(at 96.52 107.8798 0)
+		(property "Value" "VLS3012CX-100M-1"
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LifeCounter-Footprints:LQFP-64_10x10mm_P0.5mm_STM32"
-			(at 88.9 196.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h562ag.pdf"
-			(at 88.9 296.52 0)
+		(property "Footprint" "LifeCounter-Footprints:TDK_VLS3012"
+			(at 190.5 197.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,8 +5514,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Arm Cortex-M33 32-bit MCU + TrustZone + FPU, 375 DMIPS, 250 MHz, 2-Mbyte flash, 640-Kbyte RAM, math accelerators"
-			(at 39.37 111.76 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls3012cx-1_en.pdf"
+			(at 190.5 297.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD / SMT Inductors (Coils), L=10?H, L x W x T :"
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,8 +5533,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.6"
-			(at 88.9 496.52 0)
+		(property "Height" ""
+			(at 190.5 497.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3753,7 +5544,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 88.9 596.52 0)
+			(at 190.5 597.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +5554,127 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 88.9 696.52 0)
+			(at 190.5 697.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 190.5 797.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VLS3012CX-100M-1"
+			(at 190.5 897.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d291ae-0824-4d5e-b09e-4671f71c4cc0")
+		)
+		(pin "2"
+			(uuid "7e25cf7e-c19b-44a8-9c52-e21bf19a52f4")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:STM32H562RGT6")
+		(at 17.78 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4264338-97b5-403e-b95b-b479312c11b6")
+		(property "Reference" "IC1"
+			(at 74.93 105.3398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32H562RGT6"
+			(at 74.93 107.8798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:LQFP-64_10x10mm_P0.5mm_STM32"
+			(at 67.31 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h562ag.pdf"
+			(at 67.31 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arm Cortex-M33 32-bit MCU + TrustZone + FPU, 375 DMIPS, 250 MHz, 2-Mbyte flash, 640-Kbyte RAM, math accelerators"
+			(at 17.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.6"
+			(at 67.31 496.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 67.31 596.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 67.31 696.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +5684,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 88.9 796.52 0)
+			(at 67.31 796.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +5694,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STM32H562RGT6"
-			(at 88.9 896.52 0)
+			(at 67.31 896.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3988,6 +5899,126 @@
 			(project ""
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:1N5819HWQ-7-F")
+		(at 223.52 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec897151-8dbd-43ae-9c70-2a55d8d9dc70")
+		(property "Reference" "D1"
+			(at 213.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819HWQ-7-F"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOD3716X145M"
+			(at 210.82 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
+			(at 210.82 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky Diode 40 V 1A Surface Mount SOD-123"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 210.82 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 210.82 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 210.82 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 210.82 -592.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N5819HWQ-7-F"
+			(at 210.82 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e70cd797-a249-4666-80c2-13f1479c5a50")
+		)
+		(pin "1"
+			(uuid "b59e07c8-9896-4c94-ad7b-4f98e86f5f76")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "D1")
 					(unit 1)
 				)
 			)
