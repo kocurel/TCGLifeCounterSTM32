@@ -1,0 +1,24 @@
+# --- KiCad Temporary & Backup Files ---
+*.bak
+*.cadbak
+*~
+_autosave-*
+*.lck
+fp-info-cache
+
+# --- Project Specific Settings (Machine dependent) ---
+# Te pliki zawierają lokalne ścieżki użytkownika, nie powinny być w Gicie
+/kicad-common.json
+/.kicad_prl
+
+# --- Output Directories ---
+# Folder z Gerberami i dokumentacją generujemy lokalnie
+[Gg]erber/
+[Ee]xports/
+[Oo]utput/
+[Bb]uild/
+
+# --- Simulation results ---
+*.plt
+*.raw
+*.log
