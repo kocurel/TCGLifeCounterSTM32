@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "stm-prototype-v1.kicad_prl",
+    "filename": "life_counter.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
