@@ -10,6 +10,7 @@ fp-info-cache
 # Te pliki zawierają lokalne ścieżki użytkownika, nie powinny być w Gicie
 /kicad-common.json
 /.kicad_prl
+/stm-prototype-v1-backups
 
 # --- Output Directories ---
 # Folder z Gerberami i dokumentacją generujemy lokalnie
