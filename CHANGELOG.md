@@ -1,6 +1,10 @@
 # Changelog
 
 
+## [0.0.4] - 2026-02-08
+### Fixed
+- Added missing GND on AP3012KTR-E1.
+
 ## [0.0.3] - 2026-02-08
 ### Added
 - USB C symbol on the schematic and 3D model.

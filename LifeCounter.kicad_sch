@@ -5958,16 +5958,16 @@
 		)
 	)
 	(junction
+		(at 200.66 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05710c2c-d40c-4fa7-bd71-2a933b6e6f36")
+	)
+	(junction
 		(at 50.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1beda0c0-f96d-497e-8e9b-bf8501988ae3")
-	)
-	(junction
-		(at 200.66 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29182cd6-295c-47fb-86c1-c50612dc8ec9")
 	)
 	(junction
 		(at 129.54 76.2)
@@ -6173,6 +6173,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 132.08) (xy 205.74 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a26bf23-43cd-4fa4-aba0-412ccfd810d0")
+	)
+	(wire
+		(pts
 			(xy 205.74 129.54) (xy 205.74 132.08)
 		)
 		(stroke
@@ -6220,6 +6230,16 @@
 			(type default)
 		)
 		(uuid "3bbc883c-c688-4a67-bf97-ca19be715b52")
+	)
+	(wire
+		(pts
+			(xy 200.66 135.89) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb02fa6-3137-4d01-8832-82e64f4f3c18")
 	)
 	(wire
 		(pts
@@ -6300,16 +6320,6 @@
 			(type default)
 		)
 		(uuid "4cacb5d5-d1c5-4a32-9118-260b04182b5a")
-	)
-	(wire
-		(pts
-			(xy 200.66 132.08) (xy 161.29 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd9a63e-9887-46ca-9e78-cef93397bd2a")
 	)
 	(wire
 		(pts
@@ -6480,16 +6490,6 @@
 			(type default)
 		)
 		(uuid "6b3523af-d0b6-4246-ac49-3998d97bdfb7")
-	)
-	(wire
-		(pts
-			(xy 205.74 132.08) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e200557-cec2-433b-952a-84f9dfc8004f")
 	)
 	(wire
 		(pts
@@ -6830,6 +6830,16 @@
 			(type default)
 		)
 		(uuid "ceb96de5-8ab8-4201-8d12-9793a49ea82d")
+	)
+	(wire
+		(pts
+			(xy 161.29 132.08) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d3be02-3267-476c-83b4-3dcb41d26613")
 	)
 	(wire
 		(pts
@@ -9210,6 +9220,72 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "746b8c13-3a54-47f0-9311-bc1845b0aa3b")
+		(property "Reference" "#PWR028"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6c22314-7795-4df0-be1d-53093c820737")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
