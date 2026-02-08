@@ -11,6 +11,7 @@
 - Samsung CL10A475KP8NNNC 4.7uF capacitor library.
 - Diodes Incorporated AP2112K-3.3TRG1 LDO library.
 - Kemet C0603C104K8RACTU 100nF capacitor library.
+- Finished the mcu power delivery circuit.
 
 ## [0.0.2] - 2026-02-07
 
