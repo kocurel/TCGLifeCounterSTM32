@@ -7,7 +7,8 @@
 - STMicroelectronics ESDA25SC6Y TVS diode library.
 - Samsung CL10A106KP8NNNC capacitor library.
 - Microchip MCP73831T Li-Po charger library.
-- Liteon LTST-C191KRKT red charging indicator LED
+- Liteon LTST-C191KRKT red charging indicator LED library.
+- Samsung CL10A475KP8NNNC 4.7uF capacitor library.
 
 ## [0.0.2] - 2026-02-07
 
