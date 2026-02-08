@@ -6,6 +6,8 @@
 - USB C symbol on the schematic and 3D model.
 - STMicroelectronics ESDA25SC6Y TVS diode library.
 - Samsung CL10A106KP8NNNC capacitor library.
+- Microchip MCP73831T Li-Po charger library.
+- Liteon LTST-C191KRKT red charging indicator LED
 
 ## [0.0.2] - 2026-02-07
 

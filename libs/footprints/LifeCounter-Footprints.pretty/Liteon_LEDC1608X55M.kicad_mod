@@ -1,0 +1,211 @@
+(footprint "Liteon_LEDC1608X55M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTST-C191KRKT")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "53778976-710e-4b1e-9550-0b33557820f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LEDC1608X55M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c8524526-d733-4703-bd83-81ab0a1788c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e44bc3d-50ef-4571-bcfb-adc18ce82cbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a93e3878-f0c9-48fa-9371-81fa52f9c3cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.775 -0.9)
+		(end -1.775 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a7bff01-0f5d-427c-b2ff-dbcb9879ad38")
+	)
+	(fp_line
+		(start -1.775 0.9)
+		(end 0.9 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4f52f4-3ea4-4402-afea-0aca9c4f9ca1")
+	)
+	(fp_line
+		(start 0.9 -0.9)
+		(end -1.775 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f604370e-b1c5-4bea-9380-7a7cac6996cd")
+	)
+	(fp_line
+		(start -1.95 -1.05)
+		(end 1.95 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7bddf6a6-ed82-460a-94ee-e96b4dd0d6e0")
+	)
+	(fp_line
+		(start -1.95 1.05)
+		(end -1.95 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "694c7871-d392-4f0f-a8cf-ddce11dd9bfc")
+	)
+	(fp_line
+		(start 1.95 -1.05)
+		(end 1.95 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "95328d1f-84d7-47af-8d14-0c1a8a2e205a")
+	)
+	(fp_line
+		(start 1.95 1.05)
+		(end -1.95 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa6d0bdf-d6bf-42a5-92bc-d8164de2e41a")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a9642854-2b99-48ae-83a4-45eb10f2e3ef")
+	)
+	(fp_line
+		(start -0.8 -0.133)
+		(end -0.533 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2926e69-1862-4e6c-9818-caa89f71e236")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf4e1696-46c0-45e1-8fd7-0f47acf7bd52")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "45d34d9c-d40f-4dd9-939c-66279f1b9055")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d911afed-7134-4801-a419-bfa3e5b89165")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "978743a1-2ee7-40a7-bc0f-0b14e01c1378")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0 90)
+		(size 1.05 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "43492189-2114-4062-a0c2-e28c977a1ac1")
+	)
+	(pad "2" smd rect
+		(at 0.9 0 90)
+		(size 1.05 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cea0c408-d3e3-44be-84d4-b575460ddf90")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models/Liteon_LTST-C191KRKT.stp"
+		(offset
+			(xyz -0.02999999888 0 0.1800000044)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
