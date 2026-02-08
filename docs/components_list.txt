@@ -12,3 +12,5 @@ https://www.tme.eu/pl/details/mcp73831t-2ati_ot/kontrolery-baterii-i-akumulatoro
 https://www.tme.eu/pl/details/plp2-375/swiatlowody-do-led/bivar/
 https://www.tme.eu/pl/details/ltst-c191krkt/diody-led-smd-kolorowe/liteon/
 https://www.tme.eu/pl/details/cl10a475kp8nnnc/kondensatory-mlcc-smd/samsung/
+https://www.tme.eu/pl/details/ap2112k-3.3trg1/stabilizatory-napiecia-nieregulowane-ldo/diodes-incorporated/
+https://www.tme.eu/pl/details/c0603c104k8rac/kondensatory-mlcc-smd/kemet/c0603c104k8ractu/
