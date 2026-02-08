@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [0.0.3] - 2026-02-08
+### Added
+- USB C symbol on the schematic and 3D model
+- STMicroelectronics ESDA25SC6Y TVS diode library
+
+
 ## [0.0.2] - 2026-02-07
 
 ### Added
