@@ -3,9 +3,9 @@
 
 ## [0.0.3] - 2026-02-08
 ### Added
-- USB C symbol on the schematic and 3D model
-- STMicroelectronics ESDA25SC6Y TVS diode library
-
+- USB C symbol on the schematic and 3D model.
+- STMicroelectronics ESDA25SC6Y TVS diode library.
+- Samsung CL10A106KP8NNNC capacitor library.
 
 ## [0.0.2] - 2026-02-07
 

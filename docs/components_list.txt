@@ -7,3 +7,4 @@ https://www.tme.eu/en/details/cl21b105kbfnnne/mlcc-smd-capacitors/samsung/
 https://www.tme.eu/pl/en/details/zl322-2x7p/pin-headers/connfly/ds1031-08-2-7p8bs41-3a/
 https://www.tme.eu/en/details/usb4105-gf-a-120/usb-ieee1394-connectors/gct/
 https://www.tme.eu/pl/details/esda25sc6y/diody-tvs-smd-jednokierunkowe/stmicroelectronics/
+https://www.tme.eu/pl/details/cl10a106kp8nnnc/kondensatory-mlcc-smd/samsung/
