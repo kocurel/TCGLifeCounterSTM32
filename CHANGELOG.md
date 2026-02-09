@@ -14,6 +14,9 @@
 #### LCD connector
 - Labeled the pins
 
+#### Changed
+- Switched STM32H562 to a 100 pin package to have access to FMC
+
 ### Fixed
 #### Li-Po charger
 - Changed the capacitors of MCP73831T-2ATI_OT to match the schematic (increased the capacitance to 10uF).
