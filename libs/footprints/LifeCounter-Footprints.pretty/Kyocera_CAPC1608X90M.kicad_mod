@@ -1,14 +1,14 @@
-(footprint "Kemet_C0603"
+(footprint "Kyocera_CAPC1608X90M"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "C0603")
+	(descr "0603-1")
 	(tags "Capacitor")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "e4689aee-7d23-4ce7-8c22-3f2f3d2068b2")
+		(uuid "0c24da2c-1cc3-4b8a-9642-4037e429d0c7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "C0603"
+	(property "Value" "CAPC1608X90M"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "296fc493-c466-448b-8ec8-b46c4abab3ca")
+		(uuid "71bd3d87-f0cf-4e11-bc26-47693e63759d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7f0ba66-e695-47b5-bc44-edb9adea5fb2")
+		(uuid "6fc9a652-216f-451b-b926-a160237fdcc9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "80a57353-a9fe-4a63-aded-d68475005dc4")
+		(uuid "f3cde1e3-32e0-437e-a11c-74be117a3a8c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,89 +54,89 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.4 -0.7)
-		(end 1.4 -0.7)
+		(start -1.39 -0.75)
+		(end 1.39 -0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1252f2ff-55ea-4a3d-b0b0-9ecc85af81a6")
+		(uuid "cf2e5eb7-44c2-4fb7-ae52-4f899f2d58df")
 	)
 	(fp_line
-		(start -1.4 0.6)
-		(end -1.4 -0.7)
+		(start -1.39 0.75)
+		(end -1.39 -0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f7782a06-273f-4f86-af16-c8349ac79aff")
+		(uuid "d035e22c-4281-48ab-8937-8039e54ecb96")
 	)
 	(fp_line
-		(start 1.4 -0.7)
-		(end 1.4 0.6)
+		(start 1.39 -0.75)
+		(end 1.39 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d6e0fc16-859d-4222-9a91-23e3a28a980d")
+		(uuid "482baa28-81f5-4861-955b-be2d451f2fac")
 	)
 	(fp_line
-		(start 1.4 0.6)
-		(end -1.4 0.6)
+		(start 1.39 0.75)
+		(end -1.39 0.75)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "66841efb-784f-4a1a-b71d-9e98040ffa3e")
+		(uuid "f0151ee4-a9f5-4f4a-8f93-1d6f2d9b4529")
 	)
 	(fp_line
-		(start -0.8 -0.4)
-		(end 0.8 -0.4)
+		(start -0.8 -0.405)
+		(end 0.8 -0.405)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9b7c0525-a58f-4c32-a97c-15d4f9b68a6d")
+		(uuid "654ef70b-8068-4d7b-8ac4-ff2da1203c27")
 	)
 	(fp_line
-		(start -0.8 0.4)
-		(end -0.8 -0.4)
+		(start -0.8 0.405)
+		(end -0.8 -0.405)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a66af2cb-2927-40f1-a798-1f47384c3742")
+		(uuid "4b47ed4c-c21c-4d7a-9da9-1a5891e86501")
 	)
 	(fp_line
-		(start 0.8 -0.4)
-		(end 0.8 0.4)
+		(start 0.8 -0.405)
+		(end 0.8 0.405)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8b4f77cb-2202-4e63-a936-c5b17d979e20")
+		(uuid "0dfdafcb-01bb-4989-9e30-42e4cbbdd348")
 	)
 	(fp_line
-		(start 0.8 0.4)
-		(end -0.8 0.4)
+		(start 0.8 0.405)
+		(end -0.8 0.405)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5a832128-db0e-440f-91fb-48749221706a")
+		(uuid "f8fb6b24-68fa-4310-955f-0a6100c58af5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f3d879a6-b764-48c7-a433-c92aa9ac357f")
+		(uuid "96909b14-a6bd-407f-82a1-0dbc5fc6414c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -145,27 +145,27 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.8 0)
-		(size 0.95 1)
+		(at -0.75 0)
+		(size 0.88 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9b637521-0e66-4214-90b9-01a3b64ade3c")
+		(uuid "cc86670f-802d-4597-8349-5d04a563c84d")
 	)
 	(pad "2" smd rect
-		(at 0.8 0)
-		(size 0.95 1)
+		(at 0.75 0)
+		(size 0.88 1.09)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7b23dfdf-80aa-439a-8a72-d4b366a7f99e")
+		(uuid "37ad2610-56e7-4cdb-bd2a-5ebc482c8c97")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/models/Kemet_C0603C104K8RACTU.stp"
+	(model "${KIPRJMOD}/libs/models/Kyocera_06033D104KAT2A.stp"
 		(offset
-			(xyz -0.8699999917 -0.4799999821 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

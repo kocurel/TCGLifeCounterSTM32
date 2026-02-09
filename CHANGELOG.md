@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.0.5] - 2026-02-09
+### Added 
+- Kyocera AVX 06033D104KAT2A capacitor library.
+- Murata GRM188R61E106KA73D capacitor library.
+- Samsung CL21B106KOQNNNE capacitor library.
+- Murata GRM188Z71C475KE21D capacitor library.
+- Samsung CL10B104KB8NNNC capacitor library.
+- Samsung CL10B105KO8NNNC capacitor library.
+#### STM32
+- Added a 100nF capacitor at every Vdd pin.
+
+### Fixed
+#### Li-Po charger
+- Changed the capacitors of MCP73831T-2ATI_OT to match the schematic (increased the capacitance to 10uF).4
+
+### Improved
+#### Display backlight boost converter
+- Changed the two 1uF capacitors from AP3012KTR-E1's output line to a 1uF 100nF pair.
+- Added a 100nF capacitor on the input line
 
 ## [0.0.4] - 2026-02-08
 ### Fixed

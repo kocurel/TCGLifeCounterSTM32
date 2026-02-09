@@ -1,14 +1,14 @@
-(footprint "Kemet_C0603"
+(footprint "Murata_GRM18x"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "C0603")
+	(descr "GRM18x")
 	(tags "Capacitor")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "e4689aee-7d23-4ce7-8c22-3f2f3d2068b2")
+		(uuid "328118cd-4a2e-4a19-94b1-7698d8364085")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "C0603"
+	(property "Value" "GRM18x"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "296fc493-c466-448b-8ec8-b46c4abab3ca")
+		(uuid "5b359cc4-797d-4002-ba9c-66869441a595")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7f0ba66-e695-47b5-bc44-edb9adea5fb2")
+		(uuid "ae34037c-df0c-4b21-b619-3476fcd2552f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "80a57353-a9fe-4a63-aded-d68475005dc4")
+		(uuid "847535e1-0f70-4a97-9b48-f542b67cffd5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,89 +54,99 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.4 -0.7)
-		(end 1.4 -0.7)
+		(start 0 -0.4)
+		(end 0 0.4)
 		(stroke
-			(width 0.05)
+			(width 0.2)
 			(type solid)
 		)
-		(layer "F.CrtYd")
-		(uuid "1252f2ff-55ea-4a3d-b0b0-9ecc85af81a6")
+		(layer "F.SilkS")
+		(uuid "94b08b5e-9015-4938-ac09-3efcfc91fee3")
 	)
 	(fp_line
-		(start -1.4 0.6)
-		(end -1.4 -0.7)
+		(start -1.1 -0.5)
+		(end 1.1 -0.5)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f7782a06-273f-4f86-af16-c8349ac79aff")
+		(uuid "dd340a0c-83f2-42f0-91de-362289a3dc6a")
 	)
 	(fp_line
-		(start 1.4 -0.7)
-		(end 1.4 0.6)
+		(start -1.1 0.5)
+		(end -1.1 -0.5)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d6e0fc16-859d-4222-9a91-23e3a28a980d")
+		(uuid "5a17a645-7405-4315-8e78-1dae57b074cb")
 	)
 	(fp_line
-		(start 1.4 0.6)
-		(end -1.4 0.6)
+		(start 1.1 0.5)
+		(end -1.1 0.5)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "66841efb-784f-4a1a-b71d-9e98040ffa3e")
+		(uuid "a6b9a4d3-49f4-4852-bfb7-6fc5f6b98819")
+	)
+	(fp_line
+		(start 1.12 -0.5)
+		(end 1.12 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4fe6a70f-ecf6-4cd5-a782-5927467f611b")
 	)
 	(fp_line
 		(start -0.8 -0.4)
 		(end 0.8 -0.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9b7c0525-a58f-4c32-a97c-15d4f9b68a6d")
+		(uuid "89564cdc-8e7a-4094-a7dc-b7164cb8accb")
 	)
 	(fp_line
 		(start -0.8 0.4)
 		(end -0.8 -0.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a66af2cb-2927-40f1-a798-1f47384c3742")
+		(uuid "ae15df50-325b-48a3-b0cf-3a6d7a076f5e")
 	)
 	(fp_line
 		(start 0.8 -0.4)
 		(end 0.8 0.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8b4f77cb-2202-4e63-a936-c5b17d979e20")
+		(uuid "b3f5d817-b811-40e9-98ef-bbfd6647eac6")
 	)
 	(fp_line
 		(start 0.8 0.4)
 		(end -0.8 0.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5a832128-db0e-440f-91fb-48749221706a")
+		(uuid "65c28372-fa4a-4e8f-945a-cffda6988f28")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f3d879a6-b764-48c7-a433-c92aa9ac357f")
+		(uuid "9abb0f13-369d-46e9-8e72-66b36b5f3095")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -145,21 +155,21 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.8 0)
-		(size 0.95 1)
+		(at -0.675 0)
+		(size 0.65 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9b637521-0e66-4214-90b9-01a3b64ade3c")
+		(uuid "3589b830-772f-42ac-807c-bc03c9c733c3")
 	)
 	(pad "2" smd rect
-		(at 0.8 0)
-		(size 0.95 1)
+		(at 0.675 0)
+		(size 0.65 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7b23dfdf-80aa-439a-8a72-d4b366a7f99e")
+		(uuid "9cb01402-10fa-4569-a941-89e513551fb5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/models/Kemet_C0603C104K8RACTU.stp"
+	(model "GRM188Z71C475KE21D.stp"
 		(offset
-			(xyz -0.8699999917 -0.4799999821 0)
+			(xyz 0 0.4499999813 0.4)
 		)
 		(scale
 			(xyz 1 1 1)

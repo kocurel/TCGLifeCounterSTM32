@@ -1,14 +1,14 @@
-(footprint "Kemet_C0603"
+(footprint "Samsung_CAPC2012X140M"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "C0603")
+	(descr "CL21B")
 	(tags "Capacitor")
 	(property "Reference" "C**"
 		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "e4689aee-7d23-4ce7-8c22-3f2f3d2068b2")
+		(uuid "63c57f2f-40ea-4e4b-b421-ac55b968652a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "C0603"
+	(property "Value" "CAPC2012X140M"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "296fc493-c466-448b-8ec8-b46c4abab3ca")
+		(uuid "d19b3dbc-3ff0-4d9e-9250-ea7353839538")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7f0ba66-e695-47b5-bc44-edb9adea5fb2")
+		(uuid "c462fde7-d80e-41de-a2be-d9473e10b57c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "80a57353-a9fe-4a63-aded-d68475005dc4")
+		(uuid "3f61bcf2-f3be-4473-a5a8-ada4fd925218")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,89 +54,89 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.4 -0.7)
-		(end 1.4 -0.7)
+		(start -1.59 -0.97)
+		(end 1.59 -0.97)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1252f2ff-55ea-4a3d-b0b0-9ecc85af81a6")
+		(uuid "8d72086c-8019-46e1-b03e-a085fc7a5716")
 	)
 	(fp_line
-		(start -1.4 0.6)
-		(end -1.4 -0.7)
+		(start -1.59 0.97)
+		(end -1.59 -0.97)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f7782a06-273f-4f86-af16-c8349ac79aff")
+		(uuid "63fa3ffe-cd98-41dc-9635-491c89c33c1a")
 	)
 	(fp_line
-		(start 1.4 -0.7)
-		(end 1.4 0.6)
+		(start 1.59 -0.97)
+		(end 1.59 0.97)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d6e0fc16-859d-4222-9a91-23e3a28a980d")
+		(uuid "271429d3-39ee-4005-a070-2eea47ccfcd6")
 	)
 	(fp_line
-		(start 1.4 0.6)
-		(end -1.4 0.6)
+		(start 1.59 0.97)
+		(end -1.59 0.97)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "66841efb-784f-4a1a-b71d-9e98040ffa3e")
+		(uuid "d91a7fef-c785-4552-859b-a88f7f28c3a9")
 	)
 	(fp_line
-		(start -0.8 -0.4)
-		(end 0.8 -0.4)
+		(start -1 -0.625)
+		(end 1 -0.625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9b7c0525-a58f-4c32-a97c-15d4f9b68a6d")
+		(uuid "93eec1c5-be34-49f2-831b-486d68c03d31")
 	)
 	(fp_line
-		(start -0.8 0.4)
-		(end -0.8 -0.4)
+		(start -1 0.625)
+		(end -1 -0.625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a66af2cb-2927-40f1-a798-1f47384c3742")
+		(uuid "4f6f6164-d248-4cad-b4f9-2a545ac43a44")
 	)
 	(fp_line
-		(start 0.8 -0.4)
-		(end 0.8 0.4)
+		(start 1 -0.625)
+		(end 1 0.625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8b4f77cb-2202-4e63-a936-c5b17d979e20")
+		(uuid "c54c082f-f92d-4590-bb97-86af0d4d1336")
 	)
 	(fp_line
-		(start 0.8 0.4)
-		(end -0.8 0.4)
+		(start 1 0.625)
+		(end -1 0.625)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5a832128-db0e-440f-91fb-48749221706a")
+		(uuid "f0450ef2-941e-49e8-8489-1efd1fd2435f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "f3d879a6-b764-48c7-a433-c92aa9ac357f")
+		(uuid "53e11eba-4a7f-47d1-b8c6-6aa51db5579a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -145,27 +145,27 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.8 0)
-		(size 0.95 1)
+		(at -0.85 0)
+		(size 1.08 1.53)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9b637521-0e66-4214-90b9-01a3b64ade3c")
+		(uuid "8e4d052f-b607-4a07-b8b0-3f1db693f6ad")
 	)
 	(pad "2" smd rect
-		(at 0.8 0)
-		(size 0.95 1)
+		(at 0.85 0)
+		(size 1.08 1.53)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "7b23dfdf-80aa-439a-8a72-d4b366a7f99e")
+		(uuid "149e44aa-5c72-4e78-bb15-1192bbaf6ed3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libs/models/Kemet_C0603C104K8RACTU.stp"
+	(model "CL21B106KOQNNNE.stp"
 		(offset
-			(xyz -0.8699999917 -0.4799999821 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 0 0 0)
 		)
 	)
 )

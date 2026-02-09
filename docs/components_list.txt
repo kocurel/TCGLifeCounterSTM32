@@ -14,3 +14,8 @@ https://www.tme.eu/pl/details/ltst-c191krkt/diody-led-smd-kolorowe/liteon/
 https://www.tme.eu/pl/details/cl10a475kp8nnnc/kondensatory-mlcc-smd/samsung/
 https://www.tme.eu/pl/details/ap2112k-3.3trg1/stabilizatory-napiecia-nieregulowane-ldo/diodes-incorporated/
 https://www.tme.eu/pl/details/c0603c104k8rac/kondensatory-mlcc-smd/kemet/c0603c104k8ractu/
+https://www.tme.eu/pl/details/cl10b105ko8nnnc/kondensatory-mlcc-smd/samsung/
+https://www.tme.eu/pl/details/grm188z71c475ke21d/kondensatory-mlcc-smd/murata/
+https://www.tme.eu/pl/details/cl21b106koqnnne/kondensatory-mlcc-smd/samsung/
+https://www.tme.eu/pl/details/grm188r61e106ka73d/kondensatory-mlcc-smd/murata/
+https://www.tme.eu/pl/details/06033d104kat2a/kondensatory-mlcc-smd/kyocera-avx/
