@@ -15,11 +15,14 @@
 - Labeled the pins
 
 #### Changed
-- Switched STM32H562 to a 100 pin package to have access to FMC
+- Switched STM32H562 to a 100 pin package to have access to FMC.
 
 ### Fixed
+#### USB-C receptacle
+- Removed the 10uF capacitor to prevent LC voltage spikes.
 #### Li-Po charger
 - Changed the capacitors of MCP73831T-2ATI_OT to match the schematic (increased the capacitance to 10uF).
+- Added a 2 ohm resistor in series with the 10uF input capacitor.
 #### 3V3 LDO
 - Switched the Schottky diode from Bat+ to a high-side p-mosfet switch circuit
 

@@ -1973,198 +1973,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LifeCounter-Symbols:CL10A106KP8NNNC"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "10uF"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC1608X90M"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2415998.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "10F +/-10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.9"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Part Number" ""
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "TME Electronic Components Price/Stock" ""
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "SAMSUNG"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CL10A106KP8NNNC_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 2.54) (xy 5.588 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LifeCounter-Symbols:CL10B105KO8NNNC"
 			(pin_names
 				(hide yes)
@@ -3549,7 +3357,7 @@
 	)
 	(rectangle
 		(start 106.68 77.47)
-		(end 201.93 133.35)
+		(end 201.93 138.43)
 		(stroke
 			(width 0)
 			(type default)
@@ -3573,7 +3381,7 @@
 	)
 	(rectangle
 		(start 22.86 19.05)
-		(end 91.44 99.06)
+		(end 90.17 99.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -3656,12 +3464,6 @@
 		(uuid "42e47449-2b2d-4985-97b9-5acf31d3436c")
 	)
 	(junction
-		(at 121.92 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c253118-e7ce-4886-b86d-a243095acb0a")
-	)
-	(junction
 		(at 128.27 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3690,6 +3492,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b657b2e5-fec3-4ec0-a43a-c96cc360111d")
+	)
+	(junction
+		(at 121.92 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de1d4d95-e982-40db-9683-04fc10c02afc")
 	)
 	(junction
 		(at 142.24 35.56)
@@ -3807,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 107.95) (xy 132.08 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155d6c6b-8b44-46f3-9430-5ee10029ae15")
+	)
+	(wire
+		(pts
 			(xy 63.5 41.91) (xy 53.34 41.91)
 		)
 		(stroke
@@ -3824,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "1a09b30a-fa37-4d7e-a21e-4f69e73968c4")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5e8de5-6e6d-4000-8b0f-3a0ad29447e1")
 	)
 	(wire
 		(pts
@@ -4017,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 119.38) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a42f0ab-fe01-45c9-89fa-14a6a9f3ec26")
+	)
+	(wire
+		(pts
 			(xy 165.1 110.49) (xy 165.1 123.19)
 		)
 		(stroke
@@ -4027,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 118.11) (xy 185.42 113.03)
+			(xy 185.42 124.46) (xy 185.42 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4097,16 +3935,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 46.99) (xy 81.28 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d49ec1-e46a-4931-ab20-f0e9ab57d2b5")
-	)
-	(wire
-		(pts
 			(xy 173.99 35.56) (xy 173.99 40.64)
 		)
 		(stroke
@@ -4114,16 +3942,6 @@
 			(type default)
 		)
 		(uuid "a9eb1a13-15d8-426d-a4a6-2d1604f95254")
-	)
-	(wire
-		(pts
-			(xy 121.92 107.95) (xy 132.08 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac31d236-8478-44e2-8aaa-e70612fcbfa4")
 	)
 	(wire
 		(pts
@@ -4227,13 +4045,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 107.95) (xy 121.92 113.03)
+			(xy 121.92 116.84) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d86a6bde-42fc-4cdd-83ef-95188bf53592")
+		(uuid "d8ed54e0-15e5-4469-88df-eba6e5e880b5")
+	)
+	(wire
+		(pts
+			(xy 121.92 109.22) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9642465-216f-414a-a92f-308736ee96b3")
 	)
 	(wire
 		(pts
@@ -4264,16 +4092,6 @@
 			(type default)
 		)
 		(uuid "e1b78a17-d8e7-4644-bfcc-4dbebf232e49")
-	)
-	(wire
-		(pts
-			(xy 53.34 34.29) (xy 81.28 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e64b4c3e-8edc-48d8-b48b-bca01a0bbec2")
 	)
 	(wire
 		(pts
@@ -4813,130 +4631,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:CL10A106KP8NNNC")
-		(at 81.28 46.99 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "200df5bc-d23b-4f7d-8dac-d8547bc3d113")
-		(property "Reference" "C4"
-			(at 85.09 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 85.09 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC1608X90M"
-			(at -14.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2415998.pdf"
-			(at -114.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "10F +/-10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at -314.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at -414.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at -514.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "SAMSUNG"
-			(at -614.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
-			(at -714.91 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8313c28-b4b1-4234-990a-faf2cd02160b")
-		)
-		(pin "1"
-			(uuid "705483f1-629d-4bdc-93cc-d4e1d03857c6")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 185.42 125.73 0)
+		(at 185.42 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4946,7 +4642,7 @@
 		(fields_autoplaced yes)
 		(uuid "274e299c-4a1f-447d-9f7f-8f682520cf09")
 		(property "Reference" "#PWR09"
-			(at 185.42 132.08 0)
+			(at 185.42 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4651,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 130.81 0)
+			(at 185.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 125.73 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 125.73 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +4677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 125.73 0)
+			(at 185.42 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5189,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 125.73 0)
+		(at 121.92 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5199,7 +4895,7 @@
 		(fields_autoplaced yes)
 		(uuid "2daae284-2733-44d7-a4f1-74313d5c0485")
 		(property "Reference" "#PWR08"
-			(at 121.92 132.08 0)
+			(at 121.92 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +4904,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 130.81 0)
+			(at 121.92 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5216,7 +4912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 125.73 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +4921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 125.73 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5234,7 +4930,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 125.73 0)
+			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 125.73 0)
+		(at 175.26 132.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5398,7 +5094,7 @@
 		(fields_autoplaced yes)
 		(uuid "384c6a7c-bf94-4474-9b3e-45f9a430d664")
 		(property "Reference" "#PWR07"
-			(at 175.26 132.08 0)
+			(at 175.26 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 130.81 0)
+			(at 175.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 125.73 0)
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 125.73 0)
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 125.73 0)
+			(at 175.26 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,6 +5144,74 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6274540d-c626-4eee-8ea3-e474e31ccab0")
+		(property "Reference" "R8"
+			(at 116.84 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2"
+			(at 119.38 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 123.698 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32ec4a6d-6d30-43b5-b40d-eaca5683a6fa")
+		)
+		(pin "1"
+			(uuid "19eed7be-86f8-4a9b-b0dc-10add1bac82c")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:GRM188R61E106KA73D")
-		(at 121.92 113.03 90)
+		(at 121.92 119.38 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5843,7 +5607,7 @@
 		(dnp no)
 		(uuid "7e1d5f8c-f790-4a42-8213-ae9cc08ddb75")
 		(property "Reference" "C6"
-			(at 118.11 118.1099 90)
+			(at 118.11 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5616,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 118.11 120.6499 90)
+			(at 118.11 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5625,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Murata_GRM18x"
-			(at 218.11 121.92 0)
+			(at 218.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +5635,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01A.pdf"
-			(at 318.11 121.92 0)
+			(at 318.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5645,7 @@
 			)
 		)
 		(property "Description" "MLCC; 10uF; 25V; X5R; ±10%; SMD; 0603; 180mm"
-			(at 121.92 113.03 0)
+			(at 121.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5654,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 518.11 121.92 0)
+			(at 518.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5900,7 +5664,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 618.11 121.92 0)
+			(at 618.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5674,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 718.11 121.92 0)
+			(at 718.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5684,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 818.11 121.92 0)
+			(at 818.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5694,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
-			(at 918.11 121.92 0)
+			(at 918.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 185.42 123.19 0)
+		(at 185.42 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5964,7 +5728,7 @@
 		(dnp no)
 		(uuid "840896d4-5d99-451a-b6a8-254f21ad9425")
 		(property "Reference" "BT1"
-			(at 189.23 120.0784 0)
+			(at 189.23 126.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5973,7 +5737,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 189.23 122.6184 0)
+			(at 189.23 128.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 121.666 90)
+			(at 185.42 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +5755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 121.666 90)
+			(at 185.42 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +5764,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 185.42 123.19 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6009,7 +5773,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 185.42 123.19 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +5782,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 185.42 123.19 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6027,7 +5791,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 185.42 123.19 0)
+			(at 185.42 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,72 +6462,6 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 81.28 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6dd152f-51d5-4ea4-851d-fa9f1845bf9e")
-		(property "Reference" "#PWR04"
-			(at 81.28 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 81.28 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a870f938-1eaa-4999-99ab-b25b5c54cedb")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7735,7 +7433,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:GRM188R61E106KA73D")
-		(at 175.26 113.03 90)
+		(at 175.26 119.38 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7744,7 +7442,7 @@
 		(dnp no)
 		(uuid "de891de8-7a80-43a4-b85e-272bab01dba9")
 		(property "Reference" "C5"
-			(at 171.45 118.1099 90)
+			(at 171.45 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7451,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 171.45 120.6499 90)
+			(at 171.45 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7460,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Murata_GRM18x"
-			(at 271.45 121.92 0)
+			(at 271.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E106KA73-01A.pdf"
-			(at 371.45 121.92 0)
+			(at 371.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7782,7 +7480,7 @@
 			)
 		)
 		(property "Description" "MLCC; 10uF; 25V; X5R; ±10%; SMD; 0603; 180mm"
-			(at 175.26 113.03 0)
+			(at 175.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7791,7 +7489,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 571.45 121.92 0)
+			(at 571.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +7499,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 671.45 121.92 0)
+			(at 671.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +7509,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 771.45 121.92 0)
+			(at 771.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7519,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 871.45 121.92 0)
+			(at 871.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +7529,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188R61E106KA73D"
-			(at 971.45 121.92 0)
+			(at 971.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
