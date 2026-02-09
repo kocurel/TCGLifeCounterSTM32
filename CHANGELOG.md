@@ -19,6 +19,8 @@
 #### Display backlight boost converter
 - Changed the two 1uF capacitors from AP3012KTR-E1's output line to a 1uF 100nF pair.
 - Added a 100nF capacitor on the input line
+#### Kicad schematic
+- Divided the schematic into two sheets for increased readability
 
 ## [0.0.4] - 2026-02-08
 ### Fixed
