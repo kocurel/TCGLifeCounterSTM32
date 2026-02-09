@@ -21,6 +21,7 @@
 - Added a 100nF capacitor on the input line
 #### Kicad schematic
 - Divided the schematic into two sheets for increased readability
+- Marked and annotated distinct parts of the circuit
 
 ## [0.0.4] - 2026-02-08
 ### Fixed

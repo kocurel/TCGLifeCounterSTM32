@@ -18,7 +18,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "06033D104KAT2A"
+		(property "Value" "100nF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "C0603C104K8RACTU"
+		(property "Value" "100nF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL10A106KP8NNNC"
+		(property "Value" "10uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL10A475KP8NNNC"
+		(property "Value" "4.7uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -3550,7 +3550,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNC"
+		(property "Value" "100nF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL10B105KO8NNNC"
+		(property "Value" "1uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL21B105KBFNNNE"
+		(property "Value" "1uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -4126,7 +4126,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "CL21B106KOQNNNE"
+		(property "Value" "10uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -4542,7 +4542,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM188R61E106KA73D"
+		(property "Value" "10uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -4734,7 +4734,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "GRM188Z71C475KE21D"
+		(property "Value" "4.7uF"
 			(at 8.89 3.81 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "VLS3012CX-100M-1"
+		(property "Value" "10uH"
 			(at 16.51 3.81 0)
 			(effects
 				(font
