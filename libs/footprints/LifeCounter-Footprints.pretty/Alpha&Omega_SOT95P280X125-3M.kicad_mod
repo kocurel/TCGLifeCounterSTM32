@@ -1,0 +1,237 @@
+(footprint "Alpha&Omega_SOT95P280X125-3M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT23")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "4ec24012-8a8b-4c85-af17-d57ceece12f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P280X125-3M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "72fa346d-11f6-47dc-ba3f-577bff2f3c99")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "211daf60-35fe-4af3-8ee6-1e03c7e5b0c2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "550cf05e-2137-405d-a92c-0fa2d483c182")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.05 -1.525)
+		(end -0.55 -1.525)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ae4250c-f6b9-4e6c-ba79-f8666234002a")
+	)
+	(fp_line
+		(start -0.2 -1.475)
+		(end 0.2 -1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed6cdb62-4e0e-4029-b8d1-964235ae3f6e")
+	)
+	(fp_line
+		(start -0.2 1.475)
+		(end -0.2 -1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c2ac77f-95dd-4d6f-a1db-bd73a953315a")
+	)
+	(fp_line
+		(start 0.2 -1.475)
+		(end 0.2 1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c38b2a74-4e70-4ae1-91e5-1de72f0c732a")
+	)
+	(fp_line
+		(start 0.2 1.475)
+		(end -0.2 1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "594b3438-9581-4025-9b4c-3ab6c8754a46")
+	)
+	(fp_line
+		(start -2.55 -2.05)
+		(end 2.55 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89c166c8-eee1-4075-b9be-6b793fbb8ff1")
+	)
+	(fp_line
+		(start -2.55 2.05)
+		(end -2.55 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2413c841-e5bf-4f1c-b530-e378f6fcd95a")
+	)
+	(fp_line
+		(start 2.55 -2.05)
+		(end 2.55 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74570bb4-4223-4de6-84ec-3d4115594992")
+	)
+	(fp_line
+		(start 2.55 2.05)
+		(end -2.55 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0a9982b-e04a-4b62-af90-2fb8380375a1")
+	)
+	(fp_line
+		(start -0.8 -1.475)
+		(end 0.8 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dd59857b-221a-4572-9ae3-e9caf75fab61")
+	)
+	(fp_line
+		(start -0.8 -0.525)
+		(end 0.15 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ddbb8432-ee68-47e8-ac05-47f50c91b3cd")
+	)
+	(fp_line
+		(start -0.8 1.475)
+		(end -0.8 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "538a433f-bc31-46e8-a3ce-26362ad4608d")
+	)
+	(fp_line
+		(start 0.8 -1.475)
+		(end 0.8 1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fe8152d-fedf-471f-b9eb-34c05550edcf")
+	)
+	(fp_line
+		(start 0.8 1.475)
+		(end -0.8 1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b932f41-baf3-4535-9577-0ae096e57eef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "206571dd-ff6c-47e8-a003-641cf0f714af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 -0.95 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03a68622-f069-4a9e-ae7d-bcca5e248947")
+	)
+	(pad "2" smd rect
+		(at -1.3 0.95 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6c1d8c5e-dd94-4447-99c0-1db725e908a6")
+	)
+	(pad "3" smd rect
+		(at 1.3 0 90)
+		(size 0.65 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5aba9b19-8b12-4c2d-9418-980236d39518")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/models/Alpha&Omega_AO3401A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -19,3 +19,4 @@ https://www.tme.eu/pl/details/grm188z71c475ke21d/kondensatory-mlcc-smd/murata/
 https://www.tme.eu/pl/details/cl21b106koqnnne/kondensatory-mlcc-smd/samsung/
 https://www.tme.eu/pl/details/grm188r61e106ka73d/kondensatory-mlcc-smd/murata/
 https://www.tme.eu/pl/details/06033d104kat2a/kondensatory-mlcc-smd/kyocera-avx/
+https://www.tme.eu/pl/en/details/ao3401a/smd-p-channel-transistors/alpha-omega-semiconductor/

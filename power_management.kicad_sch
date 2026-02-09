@@ -1270,6 +1270,311 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LifeCounter-Symbols:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:Alpha&Omega_SOT95P280X125-3M"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "AO3401A"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LifeCounter-Symbols:AP2112K-3.3TRG1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3255,8 +3560,8 @@
 		(uuid 35ec418f-bf07-4bd5-a084-7d664567703f)
 	)
 	(rectangle
-		(start 109.22 30.48)
-		(end 232.41 74.93)
+		(start 106.68 30.48)
+		(end 232.41 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -3291,7 +3596,7 @@
 	)
 	(text "3V3 LDO"
 		(exclude_from_sim no)
-		(at 112.014 33.274 0)
+		(at 108.712 32.512 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3311,6 +3616,16 @@
 		)
 		(uuid "66c4dd71-218b-4adf-916f-af57ecbc1e50")
 	)
+	(text "Uses a p-mosfet as a high-side switch to cut off the Li-Po when a USB charger is connected"
+		(exclude_from_sim no)
+		(at 151.384 35.052 0)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "732d5900-9784-4146-8b6a-11fe07d96823")
+	)
 	(text "LiPo charger"
 		(exclude_from_sim no)
 		(at 111.76 82.55 0)
@@ -3323,7 +3638,7 @@
 		(uuid "7e3bba95-d2da-4045-a417-4bcc5f11e987")
 	)
 	(junction
-		(at 173.99 44.45)
+		(at 173.99 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "223db07e-b744-4aff-a375-36ec743b03ee")
@@ -3333,12 +3648,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "336036e0-ae8d-4880-9949-f623dcc71e5c")
-	)
-	(junction
-		(at 165.1 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f3901b4-8fc6-4bc9-9b8f-811b567971a8")
 	)
 	(junction
 		(at 35.56 86.36)
@@ -3353,10 +3662,16 @@
 		(uuid "5c253118-e7ce-4886-b86d-a243095acb0a")
 	)
 	(junction
-		(at 154.94 44.45)
+		(at 128.27 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ebcb1bf-e59c-4b3d-9236-32377ce77e65")
+		(uuid "73dd85f2-0e08-4bde-b0e8-10cb128bb6b0")
+	)
+	(junction
+		(at 154.94 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a57bc43-d3c9-48ba-911d-30a6fd2783cd")
 	)
 	(junction
 		(at 177.8 115.57)
@@ -3365,22 +3680,34 @@
 		(uuid "9d3e2be6-38f6-4f08-8c96-c67265e51de1")
 	)
 	(junction
-		(at 142.24 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a56def3a-6780-477a-ade1-5d76d74303e6")
-	)
-	(junction
-		(at 223.52 44.45)
+		(at 223.52 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93238c6-a81d-4454-aac1-831be4c451f7")
 	)
 	(junction
-		(at 212.09 44.45)
+		(at 115.57 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b657b2e5-fec3-4ec0-a43a-c96cc360111d")
+	)
+	(junction
+		(at 142.24 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e58cdfc7-a278-4595-9bc7-0a9c83b0d3ff")
+	)
+	(junction
+		(at 212.09 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2e3c6af-795e-4901-b557-9dd91812a987")
+	)
+	(junction
+		(at 166.37 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc2686e9-a479-4073-bdde-51958cab0084")
 	)
 	(no_connect
 		(at 53.34 62.23)
@@ -3407,6 +3734,16 @@
 			(type default)
 		)
 		(uuid "01d95b66-09f4-439a-9133-0c2ae6e0308e")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067904a9-6421-4db9-87dd-a002b59b4bd5")
 	)
 	(wire
 		(pts
@@ -3440,13 +3777,23 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 40.64) (xy 223.52 44.45)
+			(xy 223.52 41.91) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12b93b66-7a4d-42e1-9e5a-f9660a3c7c69")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 119.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f2e96d-7888-4684-ba9f-cd20e8726c00")
 	)
 	(wire
 		(pts
@@ -3460,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 46.99) (xy 172.72 46.99)
+			(xy 176.53 48.26) (xy 172.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3480,23 +3827,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 142.24 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27410d91-cd5a-4dbd-afb7-83e7e3ccc89f")
-	)
-	(wire
-		(pts
-			(xy 223.52 44.45) (xy 212.09 44.45)
+			(xy 223.52 45.72) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "28732407-dfdf-431d-add5-5624ed2c6bbd")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 142.24 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294ef94f-c3d7-427a-bc9c-0ef8b7a3a056")
 	)
 	(wire
 		(pts
@@ -3510,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 54.61) (xy 212.09 44.45)
+			(xy 212.09 55.88) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3877,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 176.53 44.45)
+			(xy 128.27 55.88) (xy 134.62 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1faf59-6e47-4d9b-af08-99d6a2ba7f61")
+	)
+	(wire
+		(pts
+			(xy 173.99 45.72) (xy 176.53 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3917,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 44.45) (xy 212.09 44.45)
+			(xy 207.01 45.72) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3580,13 +3937,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 44.45) (xy 142.24 44.45)
+			(xy 154.94 45.72) (xy 154.94 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bfebf99-495a-4919-b517-14c3d43698c3")
+		(uuid "5d1cdf36-c8ce-4853-93a9-04b889a9b42b")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f55134a-a99e-4082-aff3-21b303b81e1c")
 	)
 	(wire
 		(pts
@@ -3600,13 +3967,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 62.23) (xy 142.24 44.45)
+			(xy 166.37 45.72) (xy 173.99 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "69f92a9d-a37d-4cc9-96dc-0bd371b89062")
+		(uuid "681fa598-8238-4921-b891-1b1652fcf70a")
 	)
 	(wire
 		(pts
@@ -3640,16 +4007,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 44.45) (xy 173.99 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ea839fe-d54f-4b52-9a0e-801a5a83617c")
-	)
-	(wire
-		(pts
 			(xy 187.96 120.65) (xy 187.96 115.57)
 		)
 		(stroke
@@ -3660,6 +4017,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 55.88) (xy 128.27 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f0778f-3275-44ad-bda9-2d824f05e44b")
+	)
+	(wire
+		(pts
 			(xy 35.56 86.36) (xy 44.45 86.36)
 		)
 		(stroke
@@ -3667,6 +4034,16 @@
 			(type default)
 		)
 		(uuid "97413f51-5487-415c-86d2-b49b0d4897ed")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9801898a-0ad5-4793-82d5-449a8366eabf")
 	)
 	(wire
 		(pts
@@ -3710,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 173.99 49.53)
+			(xy 173.99 45.72) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3730,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 40.64) (xy 212.09 44.45)
+			(xy 212.09 41.91) (xy 212.09 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3770,7 +4147,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 44.45) (xy 223.52 54.61)
+			(xy 223.52 45.72) (xy 223.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 165.1 44.45)
+			(xy 154.94 45.72) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3827,16 +4204,6 @@
 			(type default)
 		)
 		(uuid "cfafb60b-1f50-43f5-93b3-2ee6684cfab6")
-	)
-	(wire
-		(pts
-			(xy 111.76 62.23) (xy 121.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d26bafb1-58d8-4553-b4c7-bcca1e7ecb50")
 	)
 	(wire
 		(pts
@@ -3880,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 154.94 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28a7e0c-d927-4280-b9ac-5b03710b0ca4")
-	)
-	(wire
-		(pts
 			(xy 53.34 34.29) (xy 81.28 34.29)
 		)
 		(stroke
@@ -3900,7 +4257,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 49.53) (xy 173.99 49.53)
+			(xy 176.53 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3910,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 44.45) (xy 121.92 44.45)
+			(xy 107.95 50.8) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3920,13 +4277,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 165.1 44.45)
+			(xy 166.37 55.88) (xy 166.37 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f102fc5c-9fd3-477d-af6e-d6167e473e8f")
+	)
+	(wire
+		(pts
+			(xy 142.24 45.72) (xy 134.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f108773b-fede-4aa2-9cd5-8ba4c7171027")
 	)
 	(wire
 		(pts
@@ -3950,7 +4317,27 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 46.99) (xy 172.72 50.8)
+			(xy 115.57 55.88) (xy 118.11 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5407387-6833-4e8a-9426-f8e8a1d8ee04")
+	)
+	(wire
+		(pts
+			(xy 142.24 45.72) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66db0ef-a4f0-4a85-8082-a7ca8c44ae67")
+	)
+	(wire
+		(pts
+			(xy 172.72 48.26) (xy 172.72 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3960,13 +4347,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 154.94 44.45)
+			(xy 115.57 45.72) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbeff9e2-5617-473e-9dd1-8c59ee62223c")
+		(uuid "fae3b53a-60a7-4862-9298-e61a121dc114")
 	)
 	(label "DN"
 		(at 39.37 88.9 0)
@@ -4019,7 +4406,7 @@
 		(uuid "9975d833-45ce-4d05-a268-8e5f5afffe88")
 	)
 	(label "BAT+"
-		(at 111.76 62.23 0)
+		(at 137.16 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4039,7 +4426,7 @@
 		(uuid "ab6b98d5-9428-4b3b-ad29-5e61c27eb109")
 	)
 	(label "VBUS"
-		(at 111.76 44.45 0)
+		(at 107.95 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4596,7 +4983,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 223.52 40.64 0)
+		(at 223.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4605,7 +4992,7 @@
 		(fields_autoplaced yes)
 		(uuid "2afda3dc-2aad-4d11-9922-fd8edcc6bed1")
 		(property "Reference" "#FLG02"
-			(at 223.52 38.735 0)
+			(at 223.52 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +5001,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 223.52 35.56 0)
+			(at 223.52 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +5009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 40.64 0)
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +5018,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 40.64 0)
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +5027,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 223.52 40.64 0)
+			(at 223.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4662,17 +5049,16 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:1N5819HWQ-7-F")
-		(at 139.7 44.45 0)
+		(at 137.16 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c42ad70-de29-48b2-a924-1cbd087d6026")
 		(property "Reference" "D4"
-			(at 129.54 36.83 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +5066,7 @@
 			)
 		)
 		(property "Value" "1N5819HWQ-7-F"
-			(at 129.54 39.37 0)
+			(at 127 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +5074,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOD3716X145M"
-			(at 127 138.1 0)
+			(at 124.46 139.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-			(at 127 238.1 0)
+			(at 124.46 239.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +5094,7 @@
 			)
 		)
 		(property "Description" "Schottky Diode 40 V 1A Surface Mount SOD-123"
-			(at 139.7 44.45 0)
+			(at 137.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +5103,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 127 438.1 0)
+			(at 124.46 439.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +5113,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 127 538.1 0)
+			(at 124.46 539.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +5123,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 127 638.1 0)
+			(at 124.46 639.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +5133,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 127 738.1 0)
+			(at 124.46 739.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +5143,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HWQ-7-F"
-			(at 127 838.1 0)
+			(at 124.46 839.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +5236,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 212.09 40.64 0)
+		(at 212.09 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4859,7 +5245,7 @@
 		(fields_autoplaced yes)
 		(uuid "30193f3e-b78a-4d8e-b568-d987af4db719")
 		(property "Reference" "#PWR019"
-			(at 212.09 44.45 0)
+			(at 212.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +5254,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 212.09 35.56 0)
+			(at 212.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,7 +5262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 40.64 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4885,7 +5271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 40.64 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +5280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.09 40.64 0)
+			(at 212.09 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:CL10B105KO8NNNC")
-		(at 223.52 54.61 270)
+		(at 223.52 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5058,7 +5444,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e5b2e83-0797-420b-bc84-0d8104cc11a7")
 		(property "Reference" "C3"
-			(at 227.33 59.6899 90)
+			(at 227.33 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5453,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 227.33 62.2299 90)
+			(at 227.33 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5462,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC1608X90M"
-			(at 127.33 63.5 0)
+			(at 127.33 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +5472,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2410179.pdf"
-			(at 27.33 63.5 0)
+			(at 27.33 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5482,7 @@
 			)
 		)
 		(property "Description" "Samsung Electro-Mechanics 1uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X7R Dielectric 0603 (1608M) SMD"
-			(at 223.52 54.61 0)
+			(at 223.52 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5491,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at -172.67 63.5 0)
+			(at -172.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5501,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at -272.67 63.5 0)
+			(at -272.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5511,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at -372.67 63.5 0)
+			(at -372.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5521,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at -472.67 63.5 0)
+			(at -472.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5531,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10B105KO8NNNC"
-			(at -572.67 63.5 0)
+			(at -572.67 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5557,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:C0603C104K8RACTU")
-		(at 165.1 54.61 270)
+		(at 166.37 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5179,7 +5565,7 @@
 		(dnp no)
 		(uuid "73232555-919d-4d2d-9287-fc4f2bf561b9")
 		(property "Reference" "C8"
-			(at 168.91 59.6899 90)
+			(at 170.18 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5574,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 168.91 62.2299 90)
+			(at 170.18 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5583,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Kemet_C0603"
-			(at 68.91 63.5 0)
+			(at 70.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,7 +5593,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at -31.09 63.5 0)
+			(at -29.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5603,7 @@
 			)
 		)
 		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 10 VDC, 25 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
-			(at 165.1 54.61 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5226,7 +5612,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at -231.09 63.5 0)
+			(at -229.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5622,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at -331.09 63.5 0)
+			(at -329.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5632,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at -431.09 63.5 0)
+			(at -429.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5642,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at -531.09 63.5 0)
+			(at -529.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5652,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K8RACTU"
-			(at -631.09 63.5 0)
+			(at -629.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5678,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 67.31 0)
+		(at 223.52 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,7 +5687,7 @@
 		(fields_autoplaced yes)
 		(uuid "73ed07f7-8dd1-4cb3-b06f-72d577a607d6")
 		(property "Reference" "#PWR014"
-			(at 223.52 73.66 0)
+			(at 223.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 72.39 0)
+			(at 223.52 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 67.31 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 67.31 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,7 +5722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 67.31 0)
+			(at 223.52 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,6 +6099,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "899a64a4-b45a-4dd8-817f-568069c5d09c")
+		(property "Reference" "#PWR038"
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8a8eb15-bbb4-48b0-a584-fdd2a6d13231")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LifeCounter-Symbols:ESDA25SC6Y")
 		(at 44.45 83.82 0)
 		(unit 1)
@@ -5976,7 +6428,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 50.8 0)
+		(at 172.72 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5985,7 +6437,7 @@
 		(fields_autoplaced yes)
 		(uuid "8dfc8d67-32bc-43d7-944d-d0c5a5d9b353")
 		(property "Reference" "#PWR010"
-			(at 172.72 57.15 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +6446,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 55.88 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 50.8 0)
+			(at 172.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 50.8 0)
+			(at 172.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 50.8 0)
+			(at 172.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6494,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:C0603C104K8RACTU")
-		(at 212.09 54.61 90)
+		(at 212.09 55.88 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6051,7 +6503,7 @@
 		(dnp no)
 		(uuid "927ed973-342a-4e53-8910-84d0daafcbf2")
 		(property "Reference" "C9"
-			(at 208.28 59.6899 90)
+			(at 208.28 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6512,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 208.28 62.2299 90)
+			(at 208.28 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6521,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Kemet_C0603"
-			(at 308.28 63.5 0)
+			(at 308.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6531,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
-			(at 408.28 63.5 0)
+			(at 408.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6541,7 @@
 			)
 		)
 		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 10 VDC, 25 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
-			(at 212.09 54.61 0)
+			(at 212.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6550,7 @@
 			)
 		)
 		(property "Height" "0.87"
-			(at 608.28 63.5 0)
+			(at 608.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6560,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 708.28 63.5 0)
+			(at 708.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6570,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 808.28 63.5 0)
+			(at 808.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6580,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 908.28 63.5 0)
+			(at 908.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6138,7 +6590,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C104K8RACTU"
-			(at 1008.28 63.5 0)
+			(at 1008.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,6 +6609,75 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9acb6cf3-fad2-46d9-b3c5-5312a0ec800d")
+		(property "Reference" "R7"
+			(at 120.904 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 120.904 60.706 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 121.92 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "155f16e7-e585-41a4-95e8-194374081810")
+		)
+		(pin "1"
+			(uuid "0ad739c3-c1a8-41fd-88d5-98a6c28a551b")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6229,130 +6750,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LifeCounter-Symbols:1N5819HWQ-7-F")
-		(at 139.7 62.23 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d92947-144b-4fe3-971d-edc9f90fd550")
-		(property "Reference" "D3"
-			(at 129.54 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819HWQ-7-F"
-			(at 129.54 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LifeCounter-Footprints:Diodes-Inc_SOD3716X145M"
-			(at 127 155.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-			(at 127 255.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky Diode 40 V 1A Surface Mount SOD-123"
-			(at 139.7 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 127 455.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 127 555.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 127 655.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 127 755.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N5819HWQ-7-F"
-			(at 127 855.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "33b68899-e7fb-4ba7-bd0c-ed3c0322b9e9")
-		)
-		(pin "1"
-			(uuid "b10afc7a-095e-4987-9d3f-fa1be595a48a")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LifeCounter-Symbols:CL10B105KO8NNNC")
-		(at 154.94 54.61 90)
-		(mirror x)
+		(at 154.94 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6360,7 +6759,7 @@
 		(dnp no)
 		(uuid "aa03c706-8c12-4bcf-94c9-49f833d4320f")
 		(property "Reference" "C7"
-			(at 151.13 59.6899 90)
+			(at 158.75 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6768,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 151.13 62.2299 90)
+			(at 158.75 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6777,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Samsung_CAPC1608X90M"
-			(at 251.13 63.5 0)
+			(at 58.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6388,7 +6787,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2410179.pdf"
-			(at 351.13 63.5 0)
+			(at -41.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6398,7 +6797,7 @@
 			)
 		)
 		(property "Description" "Samsung Electro-Mechanics 1uF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% X7R Dielectric 0603 (1608M) SMD"
-			(at 154.94 54.61 0)
+			(at 154.94 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,7 +6806,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 551.13 63.5 0)
+			(at -241.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6816,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 651.13 63.5 0)
+			(at -341.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +6826,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 751.13 63.5 0)
+			(at -441.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6437,7 +6836,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "SAMSUNG"
-			(at 851.13 63.5 0)
+			(at -541.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6846,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10B105KO8NNNC"
-			(at 951.13 63.5 0)
+			(at -641.25 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 67.31 0)
+		(at 154.94 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6482,7 +6881,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad2e0c16-9d23-4713-a3e0-6f7ead86ab56")
 		(property "Reference" "#PWR011"
-			(at 154.94 73.66 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 72.39 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6499,7 +6898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 67.31 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6508,7 +6907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 67.31 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6517,7 +6916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 67.31 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,6 +7007,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 128.27 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3038398-0d19-41ea-8f5e-27a19cd44412")
+		(property "Reference" "R6"
+			(at 130.81 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 130.81 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 126.492 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3caa3757-b39d-4bcb-ab85-1db5623af474")
+		)
+		(pin "1"
+			(uuid "e4c8b4ac-f5aa-462f-afcd-74fbb5ede206")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 72.39 0)
 		(unit 1)
@@ -6675,7 +7143,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:AP2112K-3.3TRG1")
-		(at 176.53 44.45 0)
+		(at 176.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6683,7 +7151,7 @@
 		(dnp no)
 		(uuid "b976fc42-9eb4-4791-a18b-3df6d49b77f5")
 		(property "Reference" "IC4"
-			(at 191.77 36.83 0)
+			(at 191.77 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +7159,7 @@
 			)
 		)
 		(property "Value" "AP2112K-3.3TRG1"
-			(at 191.77 39.37 0)
+			(at 191.77 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +7167,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Diodes_Inc-SOT95P285X140-5M"
-			(at 203.2 139.37 0)
+			(at 203.2 140.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +7177,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/AP2112.pdf"
-			(at 203.2 239.37 0)
+			(at 203.2 240.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +7187,7 @@
 			)
 		)
 		(property "Description" "600mA 3.3V LDO Regulator Enable SOT23-5 DiodesZetex AP2112K-3.3TRG1, LDO Voltage Regulator, 3.3 V +/-1.5%, 2.5  6 Vin, 5-Pin SOT-23"
-			(at 176.53 44.45 0)
+			(at 176.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +7196,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 203.2 439.37 0)
+			(at 203.2 440.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +7206,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 203.2 539.37 0)
+			(at 203.2 540.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +7216,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 203.2 639.37 0)
+			(at 203.2 640.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +7226,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 203.2 739.37 0)
+			(at 203.2 740.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +7236,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AP2112K-3.3TRG1"
-			(at 203.2 839.37 0)
+			(at 203.2 840.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6803,7 +7271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 67.31 0)
+		(at 212.09 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6812,7 +7280,7 @@
 		(dnp no)
 		(uuid "b9b754d4-562a-4c9d-bf78-33fdc34ff4e9")
 		(property "Reference" "#PWR012"
-			(at 212.09 73.66 0)
+			(at 212.09 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +7289,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 72.39 0)
+			(at 212.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6829,7 +7297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 67.31 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +7306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 67.31 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7315,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 67.31 0)
+			(at 212.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,8 +7336,133 @@
 		)
 	)
 	(symbol
+		(lib_id "LifeCounter-Symbols:AO3401A")
+		(at 134.62 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbefd5b0-4386-479a-a20a-1e5ce6819639")
+		(property "Reference" "Q1"
+			(at 146.05 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 146.05 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Alpha&Omega_SOT95P280X125-3M"
+			(at 146.05 154.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 146.05 254.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V P-Channel MOSFET"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 146.05 454.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 146.05 554.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 146.05 654.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
+			(at 146.05 754.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AO3401A"
+			(at 146.05 854.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "57710f49-10fd-4ca3-8c1f-bd00ff04e14a")
+		)
+		(pin "1"
+			(uuid "ea2ffeae-6df1-437a-8ae3-6ea553a1fab6")
+		)
+		(pin "2"
+			(uuid "45ed5772-7c05-40fa-814e-b25c9f5caffd")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 165.1 67.31 0)
+		(at 166.37 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6878,7 +7471,7 @@
 		(dnp no)
 		(uuid "cd46fbf9-8453-40a1-9075-fa908bbfe821")
 		(property "Reference" "#PWR013"
-			(at 165.1 73.66 0)
+			(at 166.37 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7480,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 72.39 0)
+			(at 166.37 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,7 +7488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 67.31 0)
+			(at 166.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6904,7 +7497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 67.31 0)
+			(at 166.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +7506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 67.31 0)
+			(at 166.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8,12 +8,15 @@
 - Murata GRM188Z71C475KE21D capacitor library.
 - Samsung CL10B104KB8NNNC capacitor library.
 - Samsung CL10B105KO8NNNC capacitor library.
+- Alpha&Omega AO3401A p-mosfet library.
 #### STM32
 - Added a 100nF capacitor at every Vdd pin.
 
 ### Fixed
 #### Li-Po charger
-- Changed the capacitors of MCP73831T-2ATI_OT to match the schematic (increased the capacitance to 10uF).4
+- Changed the capacitors of MCP73831T-2ATI_OT to match the schematic (increased the capacitance to 10uF).
+#### 3V3 LDO
+- Switched the Schottky diode from Bat+ to a high-side p-mosfet switch circuit
 
 ### Improved
 #### Display backlight boost converter

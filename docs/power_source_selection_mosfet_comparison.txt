@@ -1,0 +1,40 @@
+--------------------------------------------------------------------------------
+DOKUMENTACJA PROJEKTOWA: SEKCJA ZASILANIA (POWER MANAGEMENT)
+Data: 09.02.2026
+Temat: Wybór elementu kluczującego zasilanie (Power Path: Bateria <-> USB)
+--------------------------------------------------------------------------------
+
+1. DECYZJA PROJEKTOWA
+   Zastąpienie diody Schottky'ego (D3) tranzystorem P-Channel MOSFET.
+   Wybrany element: AO3401A (SOT-23).
+   Odrzucony element: FDN306P.
+
+2. UZASADNIENIE TECHNICZNE (TRADE-OFF ANALYSIS)
+   A. Analiza napięcia pracy (System Cut-off):
+      - Regulator LDO (AP2112) ma napięcie dropout ok. 3.4V. Poniżej tego
+        napięcia system przestaje działać poprawnie.
+      - Super-niska rezystancja tranzystora FDN306P przy napięciach rzędu 1.8V
+        jest w tym układzie "martwym zasobem" (nieużyteczna).
+      - Przy napięciu odcięcia (3.4V) różnica spadku napięcia między
+        AO3401A a FDN306P jest pomijalna (~10mV).
+
+   B. Margines bezpieczeństwa (Safety/Robustness):
+      - AO3401A: Maksymalne napięcie bramki (Vgss) wynosi +/- 12V.
+      - FDN306P: Maksymalne napięcie bramki (Vgss) wynosi +/- 8V.
+      - Wybór AO3401A zapewnia większą odporność na ewentualne przepięcia
+        z linii USB (transienty) lub podłączenie niestandardowych ładowarek.
+
+3. INSTRUKCJA IMPLEMENTACJI (SCHEMAT)
+   Komponent: P-MOSFET (np. AO3401A)
+   Obudowa: SOT-23
+
+   Połączenia pinów:
+   - Źródło (Source / Pin 2): Podłączyć do PLUSA BATERII (BAT+).
+   - Dren (Drain / Pin 3): Podłączyć do WEJŚCIA LDO (VIN).
+   - Bramka (Gate / Pin 1): Podłączyć do VBUS (USB 5V).
+
+   Elementy pasywne:
+   - Rezystor Pull-down (100k Ohm): Pomiędzy Bramką (G1) a Masą (GND).
+     (Cel: Utrzymuje tranzystor otwarty, gdy USB jest odłączone).
+   - Rezystor szeregowy (1k - 10k Ohm): Pomiędzy VBUS a Bramką.
+     (Cel: Ograniczenie prądu bramki w przypadku uszkodzenia).
