@@ -4236,10 +4236,22 @@
 		(uuid "d92bae5d-4941-400d-ba08-4d4d6144a034")
 	)
 	(junction
+		(at 227.33 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "038d341b-280e-4112-8781-e68ee7c1ca45")
+	)
+	(junction
 		(at 148.59 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05710c2c-d40c-4fa7-bd71-2a933b6e6f36")
+	)
+	(junction
+		(at 227.33 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b2e07b3-9239-4951-8fd9-61631eff8fa2")
 	)
 	(junction
 		(at 179.07 29.21)
@@ -4248,10 +4260,58 @@
 		(uuid "15e8208c-8b89-40c4-a369-cf4eedf80897")
 	)
 	(junction
+		(at 232.41 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "222d5129-4fe7-4db5-a6bc-202e0e18df2f")
+	)
+	(junction
+		(at 228.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "278c5e86-1284-4b39-9ca5-682e61afb778")
+	)
+	(junction
 		(at 114.3 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "346bb948-1ddd-4a8a-bf32-f14fb9b362ff")
+	)
+	(junction
+		(at 227.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e8d7c18-ba66-4ab0-b389-8390d0216aab")
+	)
+	(junction
+		(at 227.33 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50a66324-bb10-4751-a5c5-2a7244766072")
+	)
+	(junction
+		(at 227.33 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dcb5562-d888-43c7-9cdb-b3c653edcb60")
+	)
+	(junction
+		(at 227.33 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dbaa113-ef3b-4aa9-9f61-8cdad70deb82")
+	)
+	(junction
+		(at 227.33 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f42aab1-0fc7-447d-92ca-11dc1f17147b")
+	)
+	(junction
+		(at 227.33 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7886f946-c4ab-4e5a-b9bc-4d1933a91638")
 	)
 	(junction
 		(at 149.86 29.21)
@@ -4260,10 +4320,22 @@
 		(uuid "81968d8d-f036-428f-9ccd-34e0a5a7fe16")
 	)
 	(junction
+		(at 227.33 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c7f699-e368-48e6-94f1-262d1689a8bb")
+	)
+	(junction
 		(at 171.45 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5a418d-6518-4d7d-aa6a-2014c8eb4e39")
+	)
+	(junction
+		(at 227.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93bc41bc-008e-4b75-b495-46723fe14f4b")
 	)
 	(junction
 		(at 161.29 59.69)
@@ -4272,10 +4344,46 @@
 		(uuid "9916e087-154f-4a47-9610-913578b22243")
 	)
 	(junction
+		(at 227.33 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6ab23f-e66c-4d2d-9e1a-ef890c12a288")
+	)
+	(junction
+		(at 228.6 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d191f18-066c-4c9a-845d-73d25e6675cf")
+	)
+	(junction
 		(at 114.3 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6ea8cfd-bc73-4603-9d8a-e2dcad328e66")
+	)
+	(junction
+		(at 227.33 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b095904d-e147-4287-848a-ba8d04829006")
+	)
+	(junction
+		(at 227.33 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2fa60a2-dd91-4003-b2e8-b793e4db39bf")
+	)
+	(junction
+		(at 227.33 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b49e5afb-87a4-4f90-9f3a-860fe5ac7e53")
+	)
+	(junction
+		(at 222.25 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ef0718-79ba-4cf7-9bef-e4d811174a29")
 	)
 	(junction
 		(at 171.45 29.21)
@@ -4290,10 +4398,60 @@
 		(uuid "e0ef4074-8555-4127-8481-8f3491c91137")
 	)
 	(junction
+		(at 227.33 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e63a8f12-6638-4b7e-ba9b-e59bf1ec52d6")
+	)
+	(junction
 		(at 161.29 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9cb3a97-2a17-47bd-92ea-2e1fdb68c4bc")
+	)
+	(no_connect
+		(at 247.65 140.97)
+		(uuid "09e3a1e6-fc81-4846-aff8-4f8a58d1217a")
+	)
+	(no_connect
+		(at 232.41 100.33)
+		(uuid "19209838-b061-4b61-8670-45f52ed98f49")
+	)
+	(no_connect
+		(at 247.65 133.35)
+		(uuid "8135099d-35c4-4d52-b676-e5a308d6d283")
+	)
+	(no_connect
+		(at 247.65 29.21)
+		(uuid "a3662775-aedb-41ac-927a-e57210be5f2b")
+	)
+	(no_connect
+		(at 247.65 138.43)
+		(uuid "c889466f-59be-4f13-beed-f278717bcb74")
+	)
+	(no_connect
+		(at 247.65 135.89)
+		(uuid "f1cac750-58be-45f4-a48b-d8998c0ca2ce")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0009b080-3fbf-44fb-9b3d-ea9c0fb8ccf8")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d21b13-46d9-4f75-af6f-ae704a74034c")
 	)
 	(wire
 		(pts
@@ -4327,6 +4485,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 31.75) (xy 247.65 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "064937ce-2922-490f-95df-d87d2855fc88")
+	)
+	(wire
+		(pts
 			(xy 171.45 29.21) (xy 171.45 31.75)
 		)
 		(stroke
@@ -4344,6 +4512,86 @@
 			(type default)
 		)
 		(uuid "0b69ab3f-fea9-4e85-9cf5-edebd7d9240e")
+	)
+	(wire
+		(pts
+			(xy 236.22 107.95) (xy 247.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb8ea86-7b1f-4806-88b3-229927cb10e6")
+	)
+	(wire
+		(pts
+			(xy 227.33 77.47) (xy 247.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc4cd14-df0c-492b-b30e-214e700d297a")
+	)
+	(wire
+		(pts
+			(xy 247.65 120.65) (xy 228.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7a743e-b881-4c29-aa6e-c0f5d0716821")
+	)
+	(wire
+		(pts
+			(xy 222.25 44.45) (xy 222.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f100baa-45c7-4a30-a5f3-fb8d102fab05")
+	)
+	(wire
+		(pts
+			(xy 236.22 113.03) (xy 247.65 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fd0ee83-46af-44f4-b20f-a0c900f2f803")
+	)
+	(wire
+		(pts
+			(xy 227.33 39.37) (xy 247.65 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1053f952-956e-4d22-aba7-4137d5dff3bd")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.85) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ff5da1-ed3a-4621-8b71-872ca79ab110")
+	)
+	(wire
+		(pts
+			(xy 234.95 128.27) (xy 247.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e34339-e4af-466d-ab24-7ef073e78c67")
 	)
 	(wire
 		(pts
@@ -4407,6 +4655,36 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 77.47) (xy 227.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c62e933-7284-4592-b05a-5e1e0afb083f")
+	)
+	(wire
+		(pts
+			(xy 236.22 110.49) (xy 247.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6244ea-4fff-4105-b041-22872a06b489")
+	)
+	(wire
+		(pts
+			(xy 228.6 100.33) (xy 228.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e86047b-1a00-4405-a3ea-04106f8bfa63")
+	)
+	(wire
+		(pts
 			(xy 161.29 57.15) (xy 161.29 59.69)
 		)
 		(stroke
@@ -4427,6 +4705,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 130.81) (xy 247.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ca2c65-fe67-4c60-9efe-4b9cf9dae4f9")
+	)
+	(wire
+		(pts
 			(xy 88.9 144.78) (xy 99.06 144.78)
 		)
 		(stroke
@@ -4434,6 +4722,36 @@
 			(type default)
 		)
 		(uuid "33cf9890-abc5-44fa-af80-4a3a2cf4a12a")
+	)
+	(wire
+		(pts
+			(xy 227.33 54.61) (xy 227.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34dbd52c-040b-4477-bde4-a310dec48c17")
+	)
+	(wire
+		(pts
+			(xy 228.6 102.87) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37754e1f-dfcd-4a25-a57a-557e910a75cb")
+	)
+	(wire
+		(pts
+			(xy 227.33 49.53) (xy 247.65 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cdfb30-f569-49e2-830c-ffc4e1925fca")
 	)
 	(wire
 		(pts
@@ -4457,6 +4775,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 41.91) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6ec79a-4a5c-4395-bbad-1ba35e42b565")
+	)
+	(wire
+		(pts
 			(xy 144.78 173.99) (xy 148.59 173.99)
 		)
 		(stroke
@@ -4477,6 +4805,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 97.79) (xy 247.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434d1017-b0a2-4d19-b271-aafa7a74477b")
+	)
+	(wire
+		(pts
 			(xy 109.22 182.88) (xy 109.22 170.18)
 		)
 		(stroke
@@ -4484,6 +4822,16 @@
 			(type default)
 		)
 		(uuid "43aaa0a2-e9c1-406e-a111-f1934af05ce2")
+	)
+	(wire
+		(pts
+			(xy 222.25 44.45) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486d368b-b3e9-4470-9233-f54c5544de9a")
 	)
 	(wire
 		(pts
@@ -4514,6 +4862,16 @@
 			(type default)
 		)
 		(uuid "4c7cb598-3fff-45ca-b3b4-4c288b346030")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 227.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce54629-f158-49b8-8df4-d5ee2343c25f")
 	)
 	(wire
 		(pts
@@ -4557,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 46.99) (xy 222.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5798684e-59d5-4189-ac93-cd8a2c1c5c37")
+	)
+	(wire
+		(pts
 			(xy 168.91 29.21) (xy 171.45 29.21)
 		)
 		(stroke
@@ -4564,6 +4932,26 @@
 			(type default)
 		)
 		(uuid "5aa36350-eb1f-4dde-a324-945aeaa0a5bf")
+	)
+	(wire
+		(pts
+			(xy 227.33 74.93) (xy 227.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af1c680-6c19-40d7-9037-fe75deb94155")
+	)
+	(wire
+		(pts
+			(xy 227.33 62.23) (xy 227.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e18c8a1-bb5a-4353-ae12-fc6619de6808")
 	)
 	(wire
 		(pts
@@ -4584,6 +4972,46 @@
 			(type default)
 		)
 		(uuid "5f952c09-47e5-4556-b989-9bb7d6e2fd25")
+	)
+	(wire
+		(pts
+			(xy 227.33 59.69) (xy 227.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d2cc8e-35ce-43d8-b6dc-81cf45dd40d5")
+	)
+	(wire
+		(pts
+			(xy 236.22 85.09) (xy 247.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6454cf6b-c5f2-4675-aaf6-f6e43df852e6")
+	)
+	(wire
+		(pts
+			(xy 228.6 118.11) (xy 247.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65157eb1-8fab-4fe2-8613-ff128e0af73a")
+	)
+	(wire
+		(pts
+			(xy 227.33 54.61) (xy 247.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66635431-631e-4c8d-85f1-f57c2cf7cef7")
 	)
 	(wire
 		(pts
@@ -4614,6 +5042,16 @@
 			(type default)
 		)
 		(uuid "71496665-9561-44ab-840f-36290dd27faf")
+	)
+	(wire
+		(pts
+			(xy 236.22 115.57) (xy 247.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781acbe0-db4d-4019-83a1-e70fa3874b8c")
 	)
 	(wire
 		(pts
@@ -4657,6 +5095,66 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 90.17) (xy 247.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9f0151-f6fb-4734-9089-c400c3ce8ca8")
+	)
+	(wire
+		(pts
+			(xy 227.33 36.83) (xy 247.65 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822ef38e-aae8-412f-ba2b-f3ef6bf58b85")
+	)
+	(wire
+		(pts
+			(xy 227.33 59.69) (xy 247.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d183f5-9dba-4486-aa01-eea0c9ccf2f6")
+	)
+	(wire
+		(pts
+			(xy 227.33 67.31) (xy 247.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d4f817-190c-42ef-a51a-b1fc34324e99")
+	)
+	(wire
+		(pts
+			(xy 227.33 78.74) (xy 227.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa58d30-c29b-4d9a-b362-80df3e55bd8d")
+	)
+	(wire
+		(pts
+			(xy 232.41 123.19) (xy 232.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9078a313-de2c-4cee-8fa5-e26b770e2b98")
+	)
+	(wire
+		(pts
 			(xy 111.76 170.18) (xy 111.76 181.61)
 		)
 		(stroke
@@ -4674,6 +5172,36 @@
 			(type default)
 		)
 		(uuid "920f015d-6d59-4964-aff8-324b9d7f8a0b")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 247.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b21b6d-a561-45a8-ba62-035038e0af0b")
+	)
+	(wire
+		(pts
+			(xy 247.65 123.19) (xy 232.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97023e68-373f-4f1e-9692-bd379ec5d123")
+	)
+	(wire
+		(pts
+			(xy 236.22 92.71) (xy 247.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978fa172-90c7-4d57-b18c-76728beb1a8c")
 	)
 	(wire
 		(pts
@@ -4697,6 +5225,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 52.07) (xy 247.65 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9920300c-fd06-498b-ba9c-6995172c8774")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.85) (xy 227.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993fe05a-6ac9-47af-8141-d9cfeb6a06f7")
+	)
+	(wire
+		(pts
 			(xy 105.41 29.21) (xy 121.92 29.21)
 		)
 		(stroke
@@ -4717,6 +5265,26 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 87.63) (xy 247.65 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5af31c-4e4f-477c-a4d2-eb626ebcfaf0")
+	)
+	(wire
+		(pts
+			(xy 227.33 64.77) (xy 227.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a503962a-b740-4fa0-bda2-1ae7c29de68a")
+	)
+	(wire
+		(pts
 			(xy 179.07 29.21) (xy 179.07 31.75)
 		)
 		(stroke
@@ -4724,6 +5292,16 @@
 			(type default)
 		)
 		(uuid "a90ac7f7-5e6a-4aef-bdeb-2e356522f855")
+	)
+	(wire
+		(pts
+			(xy 227.33 52.07) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98519bf-9245-4246-a3ee-d28a9c514466")
 	)
 	(wire
 		(pts
@@ -4767,6 +5345,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 67.31) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dd52a1-d55f-4212-bab4-32df4bb2d994")
+	)
+	(wire
+		(pts
 			(xy 142.24 176.53) (xy 142.24 170.18)
 		)
 		(stroke
@@ -4777,6 +5365,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 74.93) (xy 247.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75db923-06d4-413e-8cee-22233bf72cde")
+	)
+	(wire
+		(pts
 			(xy 105.41 29.21) (xy 105.41 44.45)
 		)
 		(stroke
@@ -4784,6 +5382,26 @@
 			(type default)
 		)
 		(uuid "b92fe525-b80a-484c-b67e-6221c17e6a29")
+	)
+	(wire
+		(pts
+			(xy 227.33 64.77) (xy 247.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbed798a-1ce8-48be-a978-fd4c29174026")
+	)
+	(wire
+		(pts
+			(xy 227.33 31.75) (xy 227.33 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be89d4b5-4688-4846-ab10-9989a274a38b")
 	)
 	(wire
 		(pts
@@ -4807,6 +5425,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 72.39) (xy 247.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf711c3-391c-4a6c-89a1-c9d2f214ab06")
+	)
+	(wire
+		(pts
+			(xy 227.33 52.07) (xy 227.33 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6df899-e14f-4199-b138-1242aa9a290d")
+	)
+	(wire
+		(pts
 			(xy 88.9 139.7) (xy 88.9 144.78)
 		)
 		(stroke
@@ -4814,6 +5452,66 @@
 			(type default)
 		)
 		(uuid "d690d81e-584b-46e2-9bd4-45d8f3665d28")
+	)
+	(wire
+		(pts
+			(xy 227.33 62.23) (xy 247.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ea23dd-8120-4667-9e3a-adedec4447ce")
+	)
+	(wire
+		(pts
+			(xy 247.65 125.73) (xy 232.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3f3416-3a20-4db1-addf-936443c5f301")
+	)
+	(wire
+		(pts
+			(xy 227.33 36.83) (xy 227.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deddd4b1-7859-4e43-9d62-35588d3379c1")
+	)
+	(wire
+		(pts
+			(xy 236.22 82.55) (xy 247.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e095e62a-f88e-4876-9d43-2ee91be88c03")
+	)
+	(wire
+		(pts
+			(xy 232.41 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e357b02c-53a0-4ecb-932a-c09d812d5e8a")
+	)
+	(wire
+		(pts
+			(xy 236.22 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c7604b-c4cb-47df-8bf8-186dd0ed187a")
 	)
 	(wire
 		(pts
@@ -4827,6 +5525,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 46.99) (xy 247.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b89f65-dba2-44f6-a328-c45cb822b4c2")
+	)
+	(wire
+		(pts
 			(xy 114.3 59.69) (xy 148.59 59.69)
 		)
 		(stroke
@@ -4834,6 +5542,16 @@
 			(type default)
 		)
 		(uuid "e6bb603a-ba9d-4227-8340-50b46b53cfa4")
+	)
+	(wire
+		(pts
+			(xy 236.22 105.41) (xy 247.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6c9092-3b77-46c4-b7d6-211d4f539e47")
 	)
 	(wire
 		(pts
@@ -4854,6 +5572,16 @@
 			(type default)
 		)
 		(uuid "ec830670-ec34-40a9-8022-0850289831d0")
+	)
+	(wire
+		(pts
+			(xy 228.6 120.65) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece31cc0-896a-4f54-9558-c18a7f9998bb")
 	)
 	(wire
 		(pts
@@ -4887,6 +5615,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 34.29) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f610c195-caf2-463a-88d3-80f47e5534b8")
+	)
+	(wire
+		(pts
+			(xy 227.33 57.15) (xy 247.65 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cdc644-ab5e-4485-9436-9abc6e5b2983")
+	)
+	(wire
+		(pts
 			(xy 170.18 118.11) (xy 170.18 116.84)
 		)
 		(stroke
@@ -4894,6 +5642,16 @@
 			(type default)
 		)
 		(uuid "f7918bfe-fd4c-4b8d-be12-b5301282fa53")
+	)
+	(wire
+		(pts
+			(xy 236.22 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8866b84-3f8e-4e8d-b8fb-3e07928464be")
 	)
 	(wire
 		(pts
@@ -4905,6 +5663,16 @@
 		)
 		(uuid "fb373327-0b89-4ee3-be88-2c7b9d63891d")
 	)
+	(label "LCD_ENABLE"
+		(at 236.22 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03a0c1e6-8ba7-4c22-9579-cef9a1f55715")
+	)
 	(label "DN"
 		(at 160.02 124.46 180)
 		(effects
@@ -4914,6 +5682,46 @@
 			(justify right bottom)
 		)
 		(uuid "058ca4a3-60cc-4365-94d8-68333a8b07a7")
+	)
+	(label "LCD_DB1"
+		(at 236.22 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cf6a18e-baa4-4b6f-9e5a-6543fea5b957")
+	)
+	(label "LCD_CS"
+		(at 236.22 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f198143-4417-48f1-81b1-619369261382")
+	)
+	(label "LCD_DB0"
+		(at 236.22 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c1233cc-70e1-4dd0-b911-5b4e203581e8")
+	)
+	(label "LCD_DB10"
+		(at 236.22 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1da5d878-1ef8-4a1a-9b23-a5f7acd8ee32")
 	)
 	(label "LCD_BL_EN"
 		(at 106.68 41.91 0)
@@ -4925,6 +5733,36 @@
 		)
 		(uuid "29ff5685-bb18-4d84-95ad-0f7255cf9406")
 	)
+	(label "LCD_IM0"
+		(at 236.22 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34816704-79f0-4506-b08b-87f04e56bca7")
+	)
+	(label "LCD_SDI"
+		(at 236.22 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35694a1b-3718-409f-8040-547c9eaddf5e")
+	)
+	(label "LCD_VSYNC"
+		(at 236.22 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3683efab-39f5-4261-9e21-d76a104b9b96")
+	)
 	(label "DP"
 		(at 59.69 40.64 180)
 		(effects
@@ -4934,6 +5772,46 @@
 			(justify right bottom)
 		)
 		(uuid "3b239985-5de6-48fa-9b64-23c2483f8ca8")
+	)
+	(label "LCD_DB17"
+		(at 236.22 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e6b49cd-2ad6-4253-b0f3-602fb4f54313")
+	)
+	(label "LCD_DB6"
+		(at 236.22 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f28ac25-dd2f-44f3-848e-db61d0e0c352")
+	)
+	(label "LCD_RD"
+		(at 236.22 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42111bff-6054-4796-bf72-54040af3a0ee")
+	)
+	(label "LCD_RS"
+		(at 236.22 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49753326-10fc-487a-9898-0465089685b0")
 	)
 	(label "LCD_ANODE"
 		(at 193.04 29.21 180)
@@ -4945,6 +5823,176 @@
 		)
 		(uuid "555abb7b-42e3-4ad8-8279-9ccd84b953ef")
 	)
+	(label "LCD_DB16"
+		(at 236.22 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e6fb132-2a21-4fef-890a-9b341657028b")
+	)
+	(label "LCD_HSYNC"
+		(at 236.22 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "645ad95b-0f2c-4f7e-86e3-d54dd59a1279")
+	)
+	(label "LCD_DB13"
+		(at 236.22 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d92b46-206b-49fc-96e4-c63ba5e39a78")
+	)
+	(label "LCD_DB11"
+		(at 236.22 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d861593-43e9-4507-9a5a-d8b6b0b15110")
+	)
+	(label "LCD_WR"
+		(at 236.22 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70af126b-3506-42ba-869e-5910da5f6e31")
+	)
+	(label "LCD_DB9"
+		(at 236.22 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75ab7b6c-eeea-4096-bf1c-ae2067f7351d")
+	)
+	(label "LCD_DB4"
+		(at 236.22 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76a66a2f-8200-4241-8cbf-cff487650ac5")
+	)
+	(label "LCD_IM3"
+		(at 236.22 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a7e32e0-f53b-446d-a3d8-3948dda37727")
+	)
+	(label "LCD_SDO"
+		(at 236.22 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bfb448a-46e0-4509-83fc-99b162a28600")
+	)
+	(label "LCD_FMARK"
+		(at 236.22 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e88a143-df7d-4bd8-bb5a-be9c3155924d")
+	)
+	(label "LCD_DB12"
+		(at 236.22 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8400e7e9-2d63-4cef-95be-95af64eb0dde")
+	)
+	(label "LCD_DB14"
+		(at 236.22 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d30831-929a-4572-ac7f-d535cf3782ff")
+	)
+	(label "LCD_DOTCLK"
+		(at 236.22 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b33acfb9-b894-4fda-9b53-8db7b6dabd08")
+	)
+	(label "LCD_DB3"
+		(at 236.22 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bea5da37-a77d-4ea5-abe4-2c0dbf8d1fbd")
+	)
+	(label "LCD_DB5"
+		(at 236.22 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf6608bd-5f0a-48c9-9c92-ec5d3ab13a90")
+	)
+	(label "LCD_DB15"
+		(at 236.22 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf745e4c-8110-4cf2-85aa-a1df08a58304")
+	)
+	(label "LCD_DB2"
+		(at 236.22 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c33e8101-a2cd-484a-9513-8bb85d972611")
+	)
 	(label "DP"
 		(at 160.02 121.92 180)
 		(effects
@@ -4954,6 +6002,66 @@
 			(justify right bottom)
 		)
 		(uuid "c3dbbf2a-698e-4c89-b3ca-df5141675556")
+	)
+	(label "LCD_DB8"
+		(at 236.22 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c653f97d-61d2-4cb8-8967-e07339bc74fd")
+	)
+	(label "LCD_RESET"
+		(at 236.22 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5e00e39-ca4b-4ecf-a16a-c24e9f46a273")
+	)
+	(label "LCD_IM2"
+		(at 236.22 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc66e337-0fe7-4d13-b84b-bda6eebe2647")
+	)
+	(label "LCD_DB7"
+		(at 236.22 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc96ca1c-e351-4216-8207-99edc08d962a")
+	)
+	(label "LCD_CATHODE"
+		(at 234.95 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df56ba71-1738-4e88-9e20-51f829021884")
+	)
+	(label "LCD_ANODE"
+		(at 234.95 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e376c44a-1b08-4ad8-9de2-dab693f65345")
 	)
 	(label "LCD_CATHODE"
 		(at 193.04 46.99 180)
@@ -4974,6 +6082,82 @@
 			(justify right bottom)
 		)
 		(uuid "f13189cf-93e5-4e78-8fca-c2f3be7f2664")
+	)
+	(label "LCD_IM1"
+		(at 236.22 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9d7336a-7237-4e40-a718-97bf0e7c3395")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05a45367-b9ea-4551-8be7-48e6c0016886")
+		(property "Reference" "#PWR039"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52663e27-9ce9-4ec9-ab6b-2a11448f2717")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5043,6 +6227,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 227.33 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b31e8e-2f65-48f2-9d27-3861956d2277")
+		(property "Reference" "#PWR041"
+			(at 227.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23cf2504-15d7-4653-98bb-2287128df005")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 52.07 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5101,6 +6351,72 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 228.6 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25226742-851b-4a12-aca6-9fdc92a08dc8")
+		(property "Reference" "#PWR040"
+			(at 228.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "153a02dc-7336-462d-93af-82055d1cb3dd")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5556,8 +6872,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 222.25 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f57291-1e4c-4864-95d8-738ab5fe784d")
+		(property "Reference" "#PWR042"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19f6f868-d66b-41a9-b16e-bc81ea645f00")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 196.85 110.49 0)
+		(at 180.34 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5566,7 +6948,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c0de8d5-3f57-4e01-9fba-5cb1f518fe3d")
 		(property "Reference" "S7"
-			(at 207.01 102.87 0)
+			(at 190.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +6956,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 207.01 105.41 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +6964,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 213.36 205.41 0)
+			(at 196.85 219.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +6974,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 213.36 305.41 0)
+			(at 196.85 319.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +6984,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 196.85 110.49 0)
+			(at 180.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +6993,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 213.36 505.41 0)
+			(at 196.85 519.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5621,7 +7003,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 213.36 605.41 0)
+			(at 196.85 619.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +7013,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 213.36 705.41 0)
+			(at 196.85 719.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5641,7 +7023,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 213.36 805.41 0)
+			(at 196.85 819.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +7033,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 213.36 905.41 0)
+			(at 196.85 919.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 220.98 142.24 0)
+		(at 204.47 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5955,7 +7337,7 @@
 		(fields_autoplaced yes)
 		(uuid "78a09ac0-e99f-463f-b4d4-25523ff0b217")
 		(property "Reference" "S3"
-			(at 231.14 134.62 0)
+			(at 214.63 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +7345,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 231.14 137.16 0)
+			(at 214.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +7353,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 237.49 237.16 0)
+			(at 220.98 251.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +7363,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 237.49 337.16 0)
+			(at 220.98 351.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +7373,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 220.98 142.24 0)
+			(at 204.47 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6000,7 +7382,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 237.49 537.16 0)
+			(at 220.98 551.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +7392,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 237.49 637.16 0)
+			(at 220.98 651.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +7402,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 237.49 737.16 0)
+			(at 220.98 751.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +7412,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 237.49 837.16 0)
+			(at 220.98 851.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +7422,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 237.49 937.16 0)
+			(at 220.98 951.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +7892,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 220.98 95.25 0)
+		(at 204.47 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6519,7 +7901,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa326ebc-10a5-4ec3-b4d6-9e0acbc347c7")
 		(property "Reference" "S6"
-			(at 231.14 87.63 0)
+			(at 214.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +7909,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 231.14 90.17 0)
+			(at 214.63 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6535,7 +7917,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 237.49 190.17 0)
+			(at 220.98 204.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +7927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 237.49 290.17 0)
+			(at 220.98 304.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +7937,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 220.98 95.25 0)
+			(at 204.47 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +7946,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 237.49 490.17 0)
+			(at 220.98 504.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +7956,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 237.49 590.17 0)
+			(at 220.98 604.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6584,7 +7966,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 237.49 690.17 0)
+			(at 220.98 704.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +7976,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 237.49 790.17 0)
+			(at 220.98 804.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +7986,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 237.49 890.17 0)
+			(at 220.98 904.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +8139,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 220.98 111.76 0)
+		(at 204.47 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6766,7 +8148,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae91a10b-d23e-4627-9fd7-fc81aecf1a45")
 		(property "Reference" "S8"
-			(at 231.14 104.14 0)
+			(at 214.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +8156,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 231.14 106.68 0)
+			(at 214.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +8164,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 237.49 206.68 0)
+			(at 220.98 220.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +8174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 237.49 306.68 0)
+			(at 220.98 320.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +8184,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 220.98 111.76 0)
+			(at 204.47 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +8193,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 237.49 506.68 0)
+			(at 220.98 520.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,7 +8203,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 237.49 606.68 0)
+			(at 220.98 620.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +8213,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 237.49 706.68 0)
+			(at 220.98 720.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +8223,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 237.49 806.68 0)
+			(at 220.98 820.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +8233,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 237.49 906.68 0)
+			(at 220.98 920.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +8642,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 196.85 142.24 0)
+		(at 180.34 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7269,7 +8651,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc7c0063-b44f-4d4d-bdbf-b654d4cc19c3")
 		(property "Reference" "S1"
-			(at 207.01 134.62 0)
+			(at 190.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +8659,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 207.01 137.16 0)
+			(at 190.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7285,7 +8667,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 213.36 237.16 0)
+			(at 196.85 251.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +8677,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 213.36 337.16 0)
+			(at 196.85 351.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +8687,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 196.85 142.24 0)
+			(at 180.34 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +8696,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 213.36 537.16 0)
+			(at 196.85 551.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +8706,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 213.36 637.16 0)
+			(at 196.85 651.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +8716,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 213.36 737.16 0)
+			(at 196.85 751.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7344,7 +8726,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 213.36 837.16 0)
+			(at 196.85 851.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +8736,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 213.36 937.16 0)
+			(at 196.85 951.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +8890,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 196.85 127 0)
+		(at 180.34 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7517,7 +8899,7 @@
 		(fields_autoplaced yes)
 		(uuid "c081f123-ccaf-4adc-8a4c-015396e15d6d")
 		(property "Reference" "S2"
-			(at 207.01 119.38 0)
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,7 +8907,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 207.01 121.92 0)
+			(at 190.5 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +8915,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 213.36 221.92 0)
+			(at 196.85 235.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +8925,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 213.36 321.92 0)
+			(at 196.85 335.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +8935,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 196.85 127 0)
+			(at 180.34 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +8944,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 213.36 521.92 0)
+			(at 196.85 535.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,7 +8954,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 213.36 621.92 0)
+			(at 196.85 635.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +8964,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 213.36 721.92 0)
+			(at 196.85 735.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +8974,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 213.36 821.92 0)
+			(at 196.85 835.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +8984,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 213.36 921.92 0)
+			(at 196.85 935.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +9204,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 196.85 95.25 0)
+		(at 180.34 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7831,7 +9213,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5e9935e-85b6-4e9a-b82a-02fa6119f385")
 		(property "Reference" "S5"
-			(at 207.01 87.63 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7839,7 +9221,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 207.01 90.17 0)
+			(at 190.5 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +9229,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 213.36 190.17 0)
+			(at 196.85 204.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +9239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 213.36 290.17 0)
+			(at 196.85 304.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +9249,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 196.85 95.25 0)
+			(at 180.34 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +9258,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 213.36 490.17 0)
+			(at 196.85 504.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,7 +9268,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 213.36 590.17 0)
+			(at 196.85 604.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +9278,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 213.36 690.17 0)
+			(at 196.85 704.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +9288,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 213.36 790.17 0)
+			(at 196.85 804.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7916,7 +9298,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 213.36 890.17 0)
+			(at 196.85 904.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +9459,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:B3F-4050")
-		(at 220.98 127 0)
+		(at 204.47 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8086,7 +9468,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9addf6e-6ecc-4235-87d1-bbaaca90ccc0")
 		(property "Reference" "S4"
-			(at 231.14 119.38 0)
+			(at 214.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +9476,7 @@
 			)
 		)
 		(property "Value" "B3F-4050"
-			(at 231.14 121.92 0)
+			(at 214.63 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +9484,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Omron_B3F4050"
-			(at 237.49 221.92 0)
+			(at 220.98 235.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +9494,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.omron.com/ecb/products/pdf/en-b3f.pdf"
-			(at 237.49 321.92 0)
+			(at 220.98 335.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +9504,7 @@
 			)
 		)
 		(property "Description" "lvory Plunger Tactile Switch, SPST-NO 0.05 A@ 24 V dc 3mm"
-			(at 220.98 127 0)
+			(at 204.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +9513,7 @@
 			)
 		)
 		(property "Height" "7.5"
-			(at 237.49 521.92 0)
+			(at 220.98 535.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8141,7 +9523,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 237.49 621.92 0)
+			(at 220.98 635.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +9533,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 237.49 721.92 0)
+			(at 220.98 735.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8161,7 +9543,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "OMRON Electronics"
-			(at 237.49 821.92 0)
+			(at 220.98 835.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,7 +9553,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B3F-4050"
-			(at 237.49 921.92 0)
+			(at 220.98 935.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +9585,7 @@
 	)
 	(symbol
 		(lib_id "LifeCounter-Symbols:54104-4531")
-		(at 285.75 35.56 0)
+		(at 273.05 29.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8212,7 +9594,7 @@
 		(dnp no)
 		(uuid "ce834519-02d9-4080-8867-8050de6349c4")
 		(property "Reference" "J1"
-			(at 273.05 29.21 0)
+			(at 260.35 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8220,7 +9602,7 @@
 			)
 		)
 		(property "Value" "54104-4531"
-			(at 273.05 31.75 0)
+			(at 260.35 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +9610,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Molex_54104-4531"
-			(at 264.16 130.48 0)
+			(at 251.46 124.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +9620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 230.48 0)
+			(at 251.46 224.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +9630,7 @@
 			)
 		)
 		(property "Description" "FFC & FPC Connectors 0.5 FPC ZIF SMT R/AU prCont45CktEmbsTpPkg"
-			(at 285.75 35.56 0)
+			(at 273.05 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +9639,7 @@
 			)
 		)
 		(property "Height" "2"
-			(at 264.16 430.48 0)
+			(at 251.46 424.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +9649,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-54104-4531"
-			(at 264.16 530.48 0)
+			(at 251.46 524.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +9659,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/54104-4531?qs=sMDukONGwJXyyUSAdQyS2w%3D%3D"
-			(at 264.16 630.48 0)
+			(at 251.46 624.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8287,7 +9669,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 264.16 730.48 0)
+			(at 251.46 724.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +9679,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "54104-4531"
-			(at 264.16 830.48 0)
+			(at 251.46 824.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

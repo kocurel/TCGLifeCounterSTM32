@@ -11,6 +11,8 @@
 - Alpha&Omega AO3401A p-mosfet library.
 #### STM32
 - Added a 100nF capacitor at every Vdd pin.
+#### LCD connector
+- Labeled the pins
 
 ### Fixed
 #### Li-Po charger

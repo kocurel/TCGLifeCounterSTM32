@@ -9,7 +9,7 @@ Ten projekt to zaawansowany licznik punktów życia do gier karcianych (TCG), b�
 * **kocurel** - *Initial Work / Lead Developer*
 
 ## Versioning
-Currently: **v0.0.5** (Power delivery changes)
+Currently: **v0.0.5** (Power delivery changes and schematic cleanup)
 **v0.0.4** (Minor fix) 
 **v0.0.3** (MCU power delivery circuit) 
 **v0.0.2** (Backlight power circuit)
