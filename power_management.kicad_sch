@@ -3503,7 +3503,7 @@
 		(at 142.24 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e58cdfc7-a278-4595-9bc7-0a9c83b0d3ff")
+		(uuid "e7ebaee7-e15e-46e3-ae35-b7c0fa7297b8")
 	)
 	(junction
 		(at 212.09 35.56)
@@ -3675,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 142.24 50.8)
+			(xy 142.24 58.42) (xy 142.24 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3775,6 +3775,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 35.56) (xy 154.94 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ca2a67-8cb6-4ac5-81ca-8ed3d721100a")
+	)
+	(wire
+		(pts
 			(xy 71.12 59.69) (xy 71.12 58.42)
 		)
 		(stroke
@@ -3852,6 +3862,16 @@
 			(type default)
 		)
 		(uuid "7a42f0ab-fe01-45c9-89fa-14a6a9f3ec26")
+	)
+	(wire
+		(pts
+			(xy 142.24 40.64) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1be382-3e85-4459-8298-b2d50b3af837")
 	)
 	(wire
 		(pts
@@ -4125,7 +4145,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 134.62 35.56)
+			(xy 134.62 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4162,16 +4182,6 @@
 			(type default)
 		)
 		(uuid "f5407387-6833-4e8a-9426-f8e8a1d8ee04")
-	)
-	(wire
-		(pts
-			(xy 142.24 35.56) (xy 154.94 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66db0ef-a4f0-4a85-8082-a7ca8c44ae67")
 	)
 	(wire
 		(pts
@@ -7056,15 +7066,15 @@
 	(symbol
 		(lib_id "LifeCounter-Symbols:AO3401A")
 		(at 134.62 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bbefd5b0-4386-479a-a20a-1e5ce6819639")
 		(property "Reference" "Q1"
-			(at 146.05 41.9099 0)
+			(at 146.05 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7083,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 146.05 44.4499 0)
+			(at 146.05 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7092,7 @@
 			)
 		)
 		(property "Footprint" "LifeCounter-Footprints:Alpha&Omega_SOT95P280X125-3M"
-			(at 146.05 144.45 0)
+			(at 146.05 -53.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7102,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 146.05 244.45 0)
+			(at 146.05 -153.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7121,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 146.05 444.45 0)
+			(at 146.05 -353.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7131,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 146.05 544.45 0)
+			(at 146.05 -453.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7141,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 146.05 644.45 0)
+			(at 146.05 -553.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7151,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Alpha & Omega Semiconductors"
-			(at 146.05 744.45 0)
+			(at 146.05 -653.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +7161,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AO3401A"
-			(at 146.05 844.45 0)
+			(at 146.05 -753.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7180,7 @@
 			(uuid "45ed5772-7c05-40fa-814e-b25c9f5caffd")
 		)
 		(instances
-			(project ""
+			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "Q1")
 					(unit 1)

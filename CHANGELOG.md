@@ -1,5 +1,11 @@
 # Changelog
 
+
+## [0.0.6] - 2026-02-10
+### Fixed
+- Changed the orienation of AO3401A transistor by swapping Source and Drain to prevent 
+backfeeding the USB voltage into the battery through the mosfet's body diode.
+
 ## [0.0.5] - 2026-02-09
 ### Added 
 - Kyocera AVX 06033D104KAT2A capacitor library.
