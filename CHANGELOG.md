@@ -5,6 +5,12 @@
 ### Fixed
 - Changed the orienation of AO3401A transistor by swapping Source and Drain to prevent 
 backfeeding the USB voltage into the battery through the mosfet's body diode.
+### Added
+- Murata BLM18EG221TN1D Ferride bead in series with the Li-Po to protect from EMI backfeeding.
+- a 100nF capacitor on the input line of AP2112K-3.3TRG1
+### Changed
+- Changed the value of the pmos pull-down resistor from 100k to 1k. 
+- Removed the in-series 1k resistor on the pmos gate.
 
 ## [0.0.5] - 2026-02-09
 ### Added 

@@ -1781,6 +1781,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LifeCounter-Symbols:BLM18EG221TN1D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BLM18EG221TN1D"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LifeCounter-Footprints:Murata_BLM18EG101TH1D"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BLM18_N1D Series EMI Suppression Filter 220+/-25% at 100MHz 1A @85"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.75"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BLM18EG221TN1D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BLM18EG221TN1D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LifeCounter-Symbols:C0603C104K8RACTU"
 			(pin_names
 				(hide yes)
@@ -3369,7 +3521,7 @@
 	)
 	(rectangle
 		(start 106.68 20.32)
-		(end 232.41 66.04)
+		(end 232.41 76.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -3458,16 +3610,28 @@
 		(uuid "336036e0-ae8d-4880-9949-f623dcc71e5c")
 	)
 	(junction
-		(at 35.56 86.36)
+		(at 115.57 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42e47449-2b2d-4985-97b9-5acf31d3436c")
+		(uuid "360e3be3-c2aa-43fe-9196-74cb7a1159f8")
+	)
+	(junction
+		(at 115.57 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dbf68a4-ca23-4ecc-ba49-567e757b0850")
 	)
 	(junction
 		(at 128.27 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73dd85f2-0e08-4bde-b0e8-10cb128bb6b0")
+		(uuid "3e0b3970-60e0-47e2-8931-a3af13756034")
+	)
+	(junction
+		(at 35.56 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e47449-2b2d-4985-97b9-5acf31d3436c")
 	)
 	(junction
 		(at 154.94 35.56)
@@ -3486,12 +3650,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a93238c6-a81d-4454-aac1-831be4c451f7")
-	)
-	(junction
-		(at 115.57 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b657b2e5-fec3-4ec0-a43a-c96cc360111d")
 	)
 	(junction
 		(at 121.92 107.95)
@@ -3542,16 +3700,6 @@
 			(type default)
 		)
 		(uuid "01d95b66-09f4-439a-9133-0c2ae6e0308e")
-	)
-	(wire
-		(pts
-			(xy 125.73 45.72) (xy 128.27 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067904a9-6421-4db9-87dd-a002b59b4bd5")
 	)
 	(wire
 		(pts
@@ -3675,16 +3823,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 142.24 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "294ef94f-c3d7-427a-bc9c-0ef8b7a3a056")
-	)
-	(wire
-		(pts
 			(xy 132.08 96.52) (xy 132.08 107.95)
 		)
 		(stroke
@@ -3715,7 +3853,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 134.62 45.72)
+			(xy 115.57 45.72) (xy 128.27 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3805,16 +3943,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 142.24 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f55134a-a99e-4082-aff3-21b303b81e1c")
-	)
-	(wire
-		(pts
 			(xy 137.16 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -3832,6 +3960,16 @@
 			(type default)
 		)
 		(uuid "681fa598-8238-4921-b891-1b1652fcf70a")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa3da94-f271-436a-8b1b-60cdb9067db5")
 	)
 	(wire
 		(pts
@@ -3885,6 +4023,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 69.85) (xy 142.24 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864d36ec-b421-4adb-a232-c000958105cc")
+	)
+	(wire
+		(pts
 			(xy 185.42 124.46) (xy 185.42 113.03)
 		)
 		(stroke
@@ -3895,13 +4043,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 45.72) (xy 128.27 50.8)
+			(xy 128.27 45.72) (xy 134.62 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96f0778f-3275-44ad-bda9-2d824f05e44b")
+		(uuid "882f8747-6efd-478f-9124-90ee2e7b6049")
 	)
 	(wire
 		(pts
@@ -3912,16 +4060,6 @@
 			(type default)
 		)
 		(uuid "97413f51-5487-415c-86d2-b49b0d4897ed")
-	)
-	(wire
-		(pts
-			(xy 115.57 40.64) (xy 115.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9801898a-0ad5-4793-82d5-449a8366eabf")
 	)
 	(wire
 		(pts
@@ -3992,6 +4130,16 @@
 			(type default)
 		)
 		(uuid "b973f3f4-8397-4441-8aa6-0321a3b4a5ba")
+	)
+	(wire
+		(pts
+			(xy 142.24 55.88) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba1fb1a8-6c2a-4ff5-ad9d-cadb8d56dc25")
 	)
 	(wire
 		(pts
@@ -4125,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 115.57 40.64)
+			(xy 107.95 35.56) (xy 115.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4175,16 +4323,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 45.72) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5407387-6833-4e8a-9426-f8e8a1d8ee04")
-	)
-	(wire
-		(pts
 			(xy 172.72 38.1) (xy 172.72 41.91)
 		)
 		(stroke
@@ -4195,7 +4333,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 35.56) (xy 115.57 40.64)
+			(xy 115.57 35.56) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4222,6 +4360,16 @@
 			(justify right bottom)
 		)
 		(uuid "5110d345-c245-4fbd-bbce-cb9639c54907")
+	)
+	(label "BAT+"
+		(at 148.59 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fe9a474-e826-46a2-ac53-1059c55af096")
 	)
 	(label "VBUS"
 		(at 39.37 83.82 0)
@@ -4253,16 +4401,6 @@
 		)
 		(uuid "9975d833-45ce-4d05-a268-8e5f5afffe88")
 	)
-	(label "BAT+"
-		(at 137.16 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f413120-052c-45a3-a272-e84c90500296")
-	)
 	(label "VBUS"
 		(at 58.42 34.29 180)
 		(effects
@@ -4274,7 +4412,7 @@
 		(uuid "ab6b98d5-9428-4b3b-ad29-5e61c27eb109")
 	)
 	(label "VBUS"
-		(at 107.95 40.64 0)
+		(at 107.95 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5607,6 +5745,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 115.57 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79a9753f-19ae-43b2-bbc5-76bf60e7d6e7")
+		(property "Reference" "#PWR04"
+			(at 115.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae678688-8e17-4c7a-bee3-afae208443c0")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LifeCounter-Symbols:GRM188R61E106KA73D")
 		(at 121.92 119.38 90)
 		(mirror x)
@@ -5900,7 +6103,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "899a64a4-b45a-4dd8-817f-568069c5d09c")
 		(property "Reference" "#PWR038"
 			(at 128.27 64.77 0)
@@ -5912,7 +6114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 63.5 0)
+			(at 128.27 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6612,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 45.72 270)
+		(at 115.57 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6418,7 +6620,7 @@
 		(dnp no)
 		(uuid "9acb6cf3-fad2-46d9-b3c5-5312a0ec800d")
 		(property "Reference" "R7"
-			(at 120.904 48.006 90)
+			(at 120.142 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6427,7 +6629,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 120.904 50.546 90)
+			(at 120.142 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6638,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 121.92 43.942 90)
+			(at 117.348 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 45.72 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6656,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 45.72 0)
+			(at 115.57 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,75 +6931,6 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3038398-0d19-41ea-8f5e-27a19cd44412")
-		(property "Reference" "R6"
-			(at 130.81 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 130.81 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 126.492 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3caa3757-b39d-4bcb-ab85-1db5623af474")
-		)
-		(pin "1"
-			(uuid "e4c8b4ac-f5aa-462f-afcd-74fbb5ede206")
-		)
-		(instances
-			(project "LifeCounter"
-				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7189,6 +7322,128 @@
 		)
 	)
 	(symbol
+		(lib_id "LifeCounter-Symbols:BLM18EG221TN1D")
+		(at 142.24 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c35276ac-0ac4-418d-98c1-b540d456e935")
+		(property "Reference" "FB1"
+			(at 125.73 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BLM18EG221TN1D"
+			(at 125.73 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Murata_BLM18EG101TH1D"
+			(at 125.73 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+			(at 125.73 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BLM18_N1D Series EMI Suppression Filter 220+/-25% at 100MHz 1A @85"
+			(at 142.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.75"
+			(at 125.73 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 125.73 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 125.73 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 125.73 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BLM18EG221TN1D"
+			(at 125.73 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b7dc5f8-6838-4068-ba00-df2589f926c7")
+		)
+		(pin "1"
+			(uuid "f0a3e91d-d8d6-4be9-ac3d-9e4c3226bb8a")
+		)
+		(instances
+			(project ""
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 58.42 0)
 		(mirror y)
@@ -7558,6 +7813,127 @@
 			(project "LifeCounter"
 				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LifeCounter-Symbols:C0603C104K8RACTU")
+		(at 128.27 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ce190b-4d59-4348-9456-d0dfe8777bdd")
+		(property "Reference" "C4"
+			(at 131.318 51.562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 131.318 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LifeCounter-Footprints:Kemet_C0603"
+			(at 32.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+			(at -67.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Comm X7R, Ceramic, 0.1 uF, 10%, 10 VDC, 25 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Class II, 5 % , 5 GOhms, 7.3 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80"
+			(at 128.27 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.87"
+			(at -267.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at -367.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at -467.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at -567.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K8RACTU"
+			(at -667.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8eeac913-767d-43cc-8d84-e67820c8039c")
+		)
+		(pin "1"
+			(uuid "28593a3b-eedb-431f-839e-add4506592df")
+		)
+		(instances
+			(project "LifeCounter"
+				(path "/4fcff061-b5b1-4f40-9b81-6bf0aa8b3dad/ac1f3ae2-c9f5-46ef-b6fa-0a2fe52bf2e0"
+					(reference "C4")
 					(unit 1)
 				)
 			)
