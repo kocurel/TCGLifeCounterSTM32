@@ -21,7 +21,6 @@ Projekt charakteryzuje się specyficznymi rozwiązaniami inżynierskimi wymuszon
 ### 1. Power Management (Backlight)
 Zasilanie podświetlenia LCD zostało zrealizowane w oparciu o przetwornicę **AP3012** w konfiguracji **Constant Current**:
 - **Current Stabilization:** Zastosowano *Low-Side Sensing* z rezystorem pomiarowym **82 Ohm**, co wymusza stabilny prąd **15.24 mA** dla diod LED.
-- **BOM Optimization:** Wszystkie kondensatory filtrujące zostały ujednolicone do modelu **Samsung CL21B105KBFNNNE** (1uF, 50V, 0805) w celu eliminacji efektu *DC Bias*.
 - **Brightness Control:** Sterowanie jasnością odbywa się przez pin **SHDN** przy użyciu sygnału PWM (zalecana f: 200Hz - 1kHz).
 
 ### 2. UI & Mechanicals
