@@ -1,6 +1,6 @@
 
-# Graduation Project: [Project Name]
-> Based on the predecessor: **TCG Life Counter**
+# Graduation Project: [TCGLifeCounterSTM32]
+> Based on the predecessor: **TCGLifeCounterESP32IDF**
 
 ## Project Overview
 Ten projekt to zaawansowany licznik punktów życia do gier karcianych (TCG), będący ewolucją modelu TCG Life Counter. Głównym celem jest optymalizacja mechaniczna i elektroniczna urządzenia, ze szczególnym uwzględnieniem miniaturyzacji (limit wysokości komponentów H < 3mm) oraz poprawy kultury pracy interfejsu użytkownika.
