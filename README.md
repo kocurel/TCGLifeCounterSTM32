@@ -21,7 +21,7 @@ Projekt charakteryzuje się specyficznymi rozwiązaniami inżynierskimi wymuszon
 ### 1. Power Management (Backlight)
 Zasilanie podświetlenia LCD zostało zrealizowane w oparciu o przetwornicę **AP3012** w konfiguracji **Constant Current**:
 - **Current Stabilization:** Zastosowano *Low-Side Sensing* z rezystorem pomiarowym **82 Ohm**, co wymusza stabilny prąd **15.24 mA** dla diod LED.
-- **Brightness Control:** Sterowanie jasnością odbywa się przez pin **SHDN** przy użyciu sygnału PWM (zalecana f: 200Hz - 1kHz).
+- **Brightness Control:** Sterowanie jasnością odbywa się przez pin **SHDN** przy użyciu sygnału PWM.
 
 ### 2. UI & Mechanicals
 - **Tactile Switches:** Przejście na model **Omron B3F-4050** (130gf) w celu redukcji hałasu i poprawy ergonomii nacisku.
