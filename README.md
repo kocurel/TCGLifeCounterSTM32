@@ -16,7 +16,6 @@ Currently: **v0.0.5** (Power delivery changes, schematic cleanup, LCD pin labeli
 **v0.0.1** (Initial Draft)
 
 ## Hardware Architecture & Design Decisions
-Projekt charakteryzuje się specyficznymi rozwiązaniami inżynierskimi wymuszonymi przez ciasną obudowę:
 
 ### 1. Power Management (Backlight)
 Zasilanie podświetlenia LCD zostało zrealizowane w oparciu o przetwornicę **AP3012** w konfiguracji **Constant Current**:
