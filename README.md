@@ -1,4 +1,4 @@
-# STATUS **WIP**
+# STATUS: **WIP**
 
 # Graduation Project: [TCGLifeCounterSTM32]
 > Based on the predecessor: **TCGLifeCounterESP32**
