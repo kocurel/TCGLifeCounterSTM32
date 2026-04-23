@@ -1,6 +1,6 @@
 
 # Graduation Project: [TCGLifeCounterSTM32]
-> Based on the predecessor: **TCGLifeCounterESP32IDF**
+> Based on the predecessor: **TCGLifeCounterESP32**
 
 ## Project Overview
 Ten projekt to zaawansowany licznik punktów życia do gier karcianych (TCG), będący ewolucją modelu TCG Life Counter. Głównym celem jest optymalizacja mechaniczna i elektroniczna urządzenia, ze szczególnym uwzględnieniem miniaturyzacji (limit wysokości komponentów H < 3mm) oraz poprawy kultury pracy interfejsu użytkownika.
@@ -20,7 +20,7 @@ Projekt charakteryzuje się specyficznymi rozwiązaniami inżynierskimi wymuszon
 
 ### 1. Power Management (Backlight)
 Zasilanie podświetlenia LCD zostało zrealizowane w oparciu o przetwornicę **AP3012** w konfiguracji **Constant Current**:
-- **Current Stabilization:** Zastosowano *Low-Side Sensing* z rezystorem pomiarowym **82 Ohm**, co wymusza stabilny prąd **15.24 mA** dla diod LED.
+- **Current Stabilization:** Zastosowano Low-Side Sensing z rezystorem pomiarowym **82 Ohm**, co wymusza stabilny prąd **15.24 mA** dla diod LED.
 - **Brightness Control:** Sterowanie jasnością odbywa się przez pin **SHDN** przy użyciu sygnału PWM.
 
 ### 2. UI & Mechanicals
@@ -37,6 +37,3 @@ Zasilanie podświetlenia LCD zostało zrealizowane w oparciu o przetwornicę **A
 ## Getting Started
 ### Prerequisites
 - **KiCad 9.0+** (wymagany do otwarcia najnowszych plików `.kicad_pro`).
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
