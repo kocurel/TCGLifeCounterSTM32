@@ -34,4 +34,3 @@ LCD backlight power delivery is based on the **AP3012** step-up converter in a *
 ## Getting Started
 ### Prerequisites
 - **KiCad 9.0+** (Required to open the latest `.kicad_pro` files).
-# STATUS: **WIP**
